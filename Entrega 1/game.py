@@ -13,7 +13,29 @@ guessed_letters = []
 
 print("¡Bienvenido al juego de adivinanzas!")
 print("Estoy pensando en una palabra. ¿Puedes adivinar cuál es?")
-word_displayed = "_" * len(secret_word)
+
+#Cambio la word_displayed dependiendo el nivel seleccionado
+posibles_niveles={"Facil","Media","Dificil"}
+nivel=input(f"En que nivel desea jugar{posibles_niveles}")
+while nivel not in posibles_niveles:
+    nivel=(f"Nivel ingresado no disponible, vuelva a elegir {posibles_niveles}")
+if nivel=="Facil": #Se muestran todas las vocales
+    word_displayed=""
+    for i in secret_word:
+        if i in "aeiou":
+            word_displayed+=i
+            #Agrego las vocales a la lista de adivinadas
+            guessed_letters.append(i)
+        else:
+            word_displayed+="_"
+elif nivel=="Media":  #Se muestra la primer y ultima letra
+    word_displayed = (secret_word[0]+ "-" * (len((secret_word))-2) + secret_word[(len((secret_word))-1)])
+    #Agrego a la lista de Adivinadas
+    guessed_letters.append(secret_word[0])
+    guessed_letters.append(secret_word[(len((secret_word))-1)])
+elif nivel=="Dificil": #No se muestra ninguna letra de la palabra
+    word_displayed = "_" * len(secret_word)
+
 # Mostrarla palabra parcialmente adivinada
 print(f"Palabra: {word_displayed}")
 
