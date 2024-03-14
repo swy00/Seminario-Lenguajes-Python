@@ -43,7 +43,10 @@ print(f"Palabra: {word_displayed}")
 while failed_attempts < max_attempts:
     # Pedir al jugador que ingrese una letra
     letter = input("Ingresa una letra: ").lower()
-    
+    #Checkeo que el input sea UNA sola letra, y parte del abecedario.
+    if not letter.isalpha() or len(letter)!=1:
+        print("Ingresar una letra del abecedario.")
+        continue
     #Verifico si el input fue "", se cuenta como error y pierde intento
     if letter == "":
         print("Error no se introdujo ninguna letra, vuelva a intentarlo")
