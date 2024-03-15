@@ -1,43 +1,59 @@
 def agregarProducto(inventario):
-    #Le pido al usuario
-    nombre = input("Ingresar nombre del producto: ")
-    cantidad=input("Ingrese la cantidad inicial del producto: ")
-    #Caso de producto duplicado, le sumo la cantidad de productos
+    print()
+    #Verifico que se ingrese un nombre y cantidad correcto
+    while True:
+        nombre = input(">Ingresar nombre del producto: ")
+        if nombre.isalpha():
+            cantidad=input(">Ingrese la cantidad inicial del producto: ")
+            if cantidad.isdigit():
+                print("\n !!Producto agregado correctamente.")
+                break
+        print("\n --Error, el nombre debe ser albafético y la cantidad numerica. \n")
+    
     if nombre in inventario:
-        inventario[nombre]+=cantidad
+        inventario[nombre]+=int(cantidad)
     else:
-        inventario[nombre]=cantidad
+        inventario[nombre]=int(cantidad)
 
 def eliminarProducto(inventario):
-    #Le pido al usuario el nombre del producto a eliminar y la cantidad
-    nombre = input("Ingresar nombre del producto a eliminar: ")
+    print()
+    nombre = input(">Ingresar nombre del producto a eliminar: ")
     if nombre in inventario:
-        print("Producto eliminado.")
+        print("\n**Producto eliminado.\n")
         del inventario[nombre]
     else:
-        print(f"No se encontró {nombre} en el inventario")
+        print(f"\nNo se encontró {nombre} en el inventario.\n")
 
 def mostrarInventario(inventario):
-    for i,j in inventario.items():
-        print(f"{i} : {j}")
+    if len(inventario) == 0:
+        print(f"\n~~El inventario está vacio~~\n")
+    else:
+        print(f"{' ' * 8}{'/' * 30}\n{' ' * 8}{'Producto':<20} {'Cantidad':<10}\n{' ' * 8}{'-' * 30}")
+        for i, j in inventario.items():
+            print(f"{' ' * 8} {i:<20} {j:<10}")
+        print(f"{' ' * 8}{'/' * 30}")
 
 inventario={}
 while True:
-    menu =int(input(f"""
+    try:
+        menu =int(input(f"""
         ----Elegir una opción:----
             1. Agregar producto
             2. Eliminar producto
             3. Mostrar inventario
             4. Salir del programa 
             Ingresa tu opcion : """))
-    if menu == 1:
-        agregarProducto(inventario)
-    elif menu== 2:
-        eliminarProducto(inventario)
-    elif menu== 3:
-        mostrarInventario(inventario)
-    elif menu== 4:
-        print("Saliendo del programa.")
-        break
+    except:
+        print("\n**Opcion Inválida.\n")
     else:
-        print("Opcion no valida, volver a ingresar.")
+        if menu == 1:
+            agregarProducto(inventario)
+        elif menu== 2:
+            eliminarProducto(inventario)
+        elif menu== 3:
+            mostrarInventario(inventario)
+        elif menu== 4:
+            print("\n//Saliendo del programa. \n")
+            break
+        else:
+            print("\n** Opcion inválida, volver a ingresar.\n")
