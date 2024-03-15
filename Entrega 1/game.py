@@ -17,23 +17,33 @@ print("Estoy pensando en una palabra. ¿Puedes adivinar cuál es?")
 #Cambio la word_displayed dependiendo el nivel seleccionado
 posibles_niveles={"Facil","Media","Dificil"}
 nivel=input(f"En que nivel desea jugar{posibles_niveles}")
+
+#Por si hay un error de tipeo cuando se ingresa el nivel
 while nivel not in posibles_niveles:
     nivel=(f"Nivel ingresado no disponible, vuelva a elegir {posibles_niveles}")
-if nivel=="Facil": #Se muestran todas las vocales
-    word_displayed=""
+
+word_displayed=""
+if nivel == "Facil": #Se muestran todas las vocales
     for i in secret_word:
         if i in "aeiou":
             word_displayed+=i
-            #Agrego las vocales a la lista de adivinadas
             guessed_letters.append(i)
         else:
             word_displayed+="_"
-elif nivel=="Media":  #Se muestra la primer y ultima letra
-    word_displayed = (secret_word[0]+ "-" * (len((secret_word))-2) + secret_word[(len((secret_word))-1)])
-    #Agrego a la lista de Adivinadas
+elif nivel == "Media":  #Se muestra la primer y ultima letra
+
+    """Como el ejercicio no especifica se podía hacer >word_displayed = (secret_word[0]+ "-" * (len((secret_word))-2) + secret_word[(len((secret_word))-1)])<
+    Pero en caso de que alguna de estas dos letras vuelva a aparecer en el medio de la palabra, quedaba sin mostrarse y generaba confusion,
+    por lo tanto decidi mostrar la letra en caso de repetición."""
+    
     guessed_letters.append(secret_word[0])
     guessed_letters.append(secret_word[(len((secret_word))-1)])
-elif nivel=="Dificil": #No se muestra ninguna letra de la palabra
+    for i in secret_word:
+        if i in guessed_letters:
+            word_displayed+=i
+        else:
+            word_displayed+="_"
+elif nivel == "Dificil": #No se muestra ninguna letra de la palabra
     word_displayed = "_" * len(secret_word)
 
 # Mostrarla palabra parcialmente adivinada
@@ -73,8 +83,8 @@ while failed_attempts < max_attempts:
             letters.append(letter)
         else:
             letters.append("_")
-
     word_displayed = "".join(letters)
+    
     print(f"Palabra: {word_displayed}")
     # Verificar si se ha adivinado la palabra completa
     if word_displayed == secret_word:
