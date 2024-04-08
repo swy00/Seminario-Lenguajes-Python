@@ -1,12 +1,11 @@
-palabra = "ala" 
+palabra = input("Ingresar una palabra o frase: ")
 repetida = False
 contador = 0
-while (repetida == False)& (contador <len(palabra)):
-    if (palabra.count(palabra[contador])>1):
+#Limpio la palabra
+palabra_limpia = ''.join(caracter.lower() for caracter in palabra if caracter.isalpha())
+#Recorro la palabra verificando la cantidad de veces que aparece una letra
+for i in palabra_limpia:
+    if palabra_limpia.count(i) > 1:
         repetida = True
-    contador+=1
-
-if repetida:
-    print("La palabra no es un Heterograma")
-else:
-    print("La palabra es un Heterograma")
+        break
+print("La palabra no es un Heterograma" if repetida else "La palabra es un Heterograma")
