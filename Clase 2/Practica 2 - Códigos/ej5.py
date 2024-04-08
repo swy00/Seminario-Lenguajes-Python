@@ -20,15 +20,12 @@ resumen = article[(article.find("resumen:")+ len("resumen:")):(len(article))].st
 #Como los numeros no cuentan, los elimino de los strings
 titulo = ''.join(i for i in titulo if not i.isdigit())
 resumen = ''.join(i for i in resumen if not i.isdigit())
-
+#Recorro oracion por oracion y veo si cumple las condiciones
+oraciones = resumen.split(".")
 facil=0
 aceptable=0
 dificil=0
 muy_dificil =0
-informe_titulo = "not ok" if len(titulo.split()) > 10 else "ok"
-
-#Recorro oracion por oracion y veo si cumple las condiciones
-oraciones = resumen.split(".")
 for i in oraciones:
     palabras_oracion=i.split()
     if len(palabras_oracion) <= 12:
@@ -40,4 +37,5 @@ for i in oraciones:
     else:
         muy_dificil += 1
 
+informe_titulo = "not ok" if len(titulo.split()) > 10 else "ok"
 print(f"titulo: {informe_titulo}\nCantidad de oraciones faciles de leer: {facil}, aceptables para leer:{aceptable},dificil de leer: {dificil}, muy dificil de leer {muy_dificil}.")
