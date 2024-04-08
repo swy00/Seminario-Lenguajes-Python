@@ -8,4 +8,4 @@ for i in palabra_limpia:
     if palabra_limpia.count(i) > 1:
         repetida = True
         break
-print("La palabra no es un Heterograma" if repetida else "La palabra es un Heterograma")
+print("No es un Heterograma" if repetida else "Si es un Heterograma")
