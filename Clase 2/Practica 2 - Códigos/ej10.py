@@ -23,8 +23,8 @@ diccionario_jugadores=dict(zip(lista_nombres, info))
 
 ###PUNTO 2- Conocer el nombre y la catidad del mas goleador
 
-nombre_goleador=list(name for name,data in diccionario_jugadores.items() if data == max(diccionario_jugadores.values()))[0]
-print(f"\nEl maximo goleador con {diccionario_jugadores.get(nombre_goleador)[0]} goles es {nombre_goleador}\n")
+nombre_goleador=list((name,data[0]) for name,data in diccionario_jugadores.items() if data == max(diccionario_jugadores.values()))[0]
+print(f"\nEl maximo goleador con {nombre_goleador[1]} goles es {nombre_goleador[0]}\n")
 
 ###PUNTO 3-Jugador mas influyente
 
@@ -45,4 +45,4 @@ print(f"El promedio de gol por partido del equipo es {goles_totales/25}\n")
 
 ###PUNTO 5- El promedio de gol por partido del goleador
 #Usando lo desarrollado en el punto 2
-print(f"El promedio de gol del goleador es de {(diccionario_jugadores.get(nombre_goleador)[0])/25}\n")
+print(f"El promedio de gol del goleador es de {(diccionario_jugadores.get(nombre_goleador[0])[0])/25} por partido\n")
