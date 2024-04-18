@@ -3,7 +3,7 @@
 Primera parte del trabajo integrador para Seminario Lenguajes Python.
 
 
-## Integrantes Grupo
+## Integrantes Grupo 11
 
 - Francisco Ronga
 - Tomas Panelo
