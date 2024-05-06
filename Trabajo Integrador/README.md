@@ -1,33 +1,50 @@
 # Trabajo Integrador - Seminario Lenguajes
 
-Primera parte del trabajo integrador para Seminario Lenguajes Python.
-
+Este repositorio contiene la primera parte del trabajo integrador para el Seminario Lenguajes Python.
 
 ## Integrantes Grupo 11
 
-- Francisco Ronga
-- Tomas Panelo
-- Simón Mc Govern
-- Santiago Sanchez
+- [Francisco Ronga](https://github.com/swy00)
+- [Tomas Panelo](https://github.com/tomaspanelo)
+- [Simón Mc Govern](https://github.com/SimonMcGovern)
+- [Santiago Sanchez](https://github.com/santiagosanchezlp)
 
-
-## Instrucciones Ejecución
+## Instalación
 
 Usar Python 3.11 o superior y ejecutar:
 
-Linux:
+- Linux:
 ```bash
-  python3.11 -m venv venv
-
-  source venv\bin\activate
-
-  pip install -r requirements.txt
+    python3.11 -m venv venv
+    source venv/bin/activate
+    pip install -r requirements.txt
 ```
-Windows:
+- Windows:
 ```bash
-  py -m venv venv
+    py -m venv venv
+    source venv/Scripts/activate
+    pip install -r requirements.txt
+```
 
-  source venv/Scripts/activate
+## Apertura de archivos
 
-  pip install -r requirements.txt
+- Archivo procesamiento de datasets:
+
+```
+jupyter notebook .\datasets_processor\dataset_processor.ipynb
+
+```
+- Archivo de consultas:
+
+```
+jupyter notebook .\consultas\consultas.ipynb
+
+```
+
+## Inicio de aplicación Streamlit
+
+
+```
+python -m streamlit run streamlit/Inicio.py
+
 ```
