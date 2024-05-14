@@ -72,22 +72,21 @@ def elevation_map():
         fig.update_layout(
             title = 'Mapa aeropuertos color segun elevation_name',
             geo_scope='world',
-            geo_bgcolor='rgba(0, 0, 0, 0)',  # Hacemos el fondo transparente
+            geo_bgcolor='rgba(0, 0, 0, 0)',  
             geo=dict(
-                showland=True,  # Mostramos las tierras
-                landcolor='rgb(243, 243, 243)',  # Color de las tierras
-                showlakes=True,  # Mostramos los lagos
-                lakecolor='rgb(255, 255, 255)',  # Color de los lagos
-                showocean=True,  # Mostramos los océanos
-                oceancolor='rgb(255, 255, 255)',  # Color de los océanos
-                showcountries=True,  # Mostramos los países
-                countrycolor='rgb(0, 0, 0)',  # Color de los países
-                projection_type='equirectangular',  # Tipo de proyección
-                center=dict(lon=-60, lat=-40),  # Centro del mapa
-                # Puedes ajustar el nivel de zoom cambiando el valor de scale
-                projection_scale=3,  # Escala de zoom
+                showland=True,  
+                landcolor='rgb(243, 243, 243)',
+                showlakes=True,  
+                lakecolor='rgb(255, 255, 255)',  
+                showocean=True,  
+                oceancolor='rgb(255, 255, 255)',  
+                showcountries=True,  
+                countrycolor='rgb(0, 0, 0)',  
+                projection_type='equirectangular',  
+                center=dict(lon=-60, lat=-40),  
+                projection_scale=3,  
             ),
-            width=800,  # Anchura del contenedor de la figura
+            width=800,
             height=600,
         )
         st.plotly_chart(fig)
