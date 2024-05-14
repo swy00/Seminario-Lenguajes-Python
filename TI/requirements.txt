@@ -1,0 +1,4 @@
+jupyter==1.0.0
+streamlit
+matplotlib
+streamlit-folium
