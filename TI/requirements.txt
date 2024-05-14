@@ -1,5 +1,6 @@
 jupyter==1.0.0
 streamlit
+pandas
 matplotlib
 streamlit-folium
 plotly

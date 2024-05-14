@@ -6,6 +6,7 @@ import folium
 from streamlit_folium import st_folium
 import matplotlib as mpl
 # Mapa - graficos con plotly
+import plotly.express as px
 import plotly.graph_objects as go
 #Mapa con matplotlib
 import matplotlib.pyplot as plt
@@ -97,8 +98,8 @@ def elevation_map():
         color_map = {'altos': 'red', 'medio': 'green', 'bajo': 'blue','unknown':'black'}
         
         for elevacion, data in airports_df.groupby('elevation_name'):
-            color = color_map.get(elevacion, 'black')
-            ax.scatter(data['longitude_deg'], data['latitude_deg'], color=color, label=elevacion,s=4)
+            color = color_map.get(elevacion)
+            ax.scatter(data['longitude_deg'], data['latitude_deg'], color=color, label=elevacion,s=4,alpha=.5)
         ax.set_xlabel('Longitud')
         ax.set_ylabel('Latitud')
         ax.legend(color_map.keys(), title='Elevación')
@@ -140,6 +141,26 @@ def airport_widgets():
     plt.tight_layout()
     st.pyplot(plt)
 
+
+    # #Choropleth Map Plotly // NO FUNCIONA, muestra mapa vacio
+    # import json
+    # mapa = json.load(open('./streamlit/data/argentina.geojson','r'))
+
+    # airports_df['region_name'] = airports_df['region_name'].str.strip().replace(" Province", "")
+    # print(airports_df.head())
+    # province_id_map = airports_df.groupby('region_name').size().reset_index(name='num')
+    # province_id_map['provincia_id'] = range(1, len(aeropuertos_por_provincia) + 1)
+    # fig = px.choropleth(
+    #     province_id_map,
+    #     locations="provincia_id",
+    #     geojson=mapa,
+    #     color="num",
+    #     hover_name="region_name",
+    #     hover_data=["region_name"],
+    #     title="Cantidad de Aeropuertos por Provincia",
+    # )
+    # #fig.update_geos(fitbounds="locations", visible=False)
+    # st.plotly_chart(fig)
 def coords_map():
     return ''
 
