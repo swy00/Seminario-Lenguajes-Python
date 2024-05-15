@@ -107,15 +107,19 @@ def elevation_map():
         ax.set_xlim(-80,-50)
         ax.set_ylim(-60,-20)
         ax.legend()
-        ctx.add_basemap(ax, crs='EPSG:4326', url='https://tiles.stadiamaps.com/static/alidade_satellite.jpg?size=1372x883@2x&center=-41.103231693639515,-64.77271035057947&zoom=4')
+
+        # Background-Image of map
+        image_url="https://tiles.stadiamaps.com/static/alidade_smooth_dark.png?size=1372x883@2x&center=-41.04410617429289,-74.79155330721744&zoom=3"
+        #ctx.add_basemap(ax, crs='EPSG:4326', url=image_url)
         #fig.savefig('mapa_aeropuertos.png')
+        
         st.pyplot(fig)
 
 
 def airport_widgets():
 
     # Pie chart con plotly
-    aeropuertos_por_provincia = airports_df['region_name'].value_counts()
+    aeropuertos_por_provincia = airports_df['region_name'].str.rstrip('Province').value_counts()
     
     fig = go.Figure(data=[go.Pie(labels=aeropuertos_por_provincia.index, 
                                 values=aeropuertos_por_provincia,
@@ -124,22 +128,33 @@ def airport_widgets():
     fig.update_layout(title='Número de Aeropuertos por Provincia')
     st.plotly_chart(fig)
 
-    # Bar Chart
-    fig = go.Figure(data=[go.Bar(x=aeropuertos_por_provincia.index, y=aeropuertos_por_provincia)])
-    fig.update_layout(title='Cantidad de Aeropuertos por Provincia')
-    fig.update_xaxes(title_text='Provincia')
-    fig.update_yaxes(title_text='Cantidad de Aeropuertos')
-    st.plotly_chart(fig)
+    # Grouped bar chart - Tamaño de aeropuertos en cada provincia
+    # Tamaño de aeropuertos por provincia
+    asd = airports_df.groupby(['region_name', 'type'])['type'].count()
 
-    # Bar Chart MatPlotLib
-    plt.figure(figsize=(10, 6))
-    plt.bar(aeropuertos_por_provincia.index, aeropuertos_por_provincia)
-    plt.title('Número de Aeropuertos por Provincia')
-    plt.xlabel('Provincia')
-    plt.ylabel('Número de Aeropuertos')
-    plt.xticks(rotation=45, ha='right')
-    plt.tight_layout()
-    st.pyplot(plt)
+    # Bar Chart
+    select = st.selectbox("Bar chart:", 
+                            ('Plotly','Matplotlib'),
+                            index=None,
+                            placeholder="Elegir libreria:")
+    # Plotly
+    if select == 'Plotly':
+        fig = go.Figure(data=[go.Bar(x=aeropuertos_por_provincia.index, y=aeropuertos_por_provincia)])
+        fig.update_layout(title='Cantidad de Aeropuertos por Provincia')
+        fig.update_xaxes(title_text='Provincia')
+        fig.update_yaxes(title_text='Cantidad de Aeropuertos')
+        st.plotly_chart(fig)
+    elif select == 'Matplotlib':
+    # MatPlotLib
+        plt.figure(figsize=(10, 6))
+        plt.bar(aeropuertos_por_provincia.index, aeropuertos_por_provincia)
+        plt.title('Número de Aeropuertos por Provincia')
+        plt.xlabel('Provincia')
+        plt.ylabel('Número de Aeropuertos')
+        plt.xticks(rotation=45, ha='right')
+        plt.style.use('dark_background')
+        plt.tight_layout()
+        st.pyplot(plt)
 
 
     # #Choropleth Map Plotly // NO FUNCIONA, muestra mapa vacio
