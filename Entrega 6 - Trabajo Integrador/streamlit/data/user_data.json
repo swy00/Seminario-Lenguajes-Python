@@ -1,0 +1,44 @@
+[
+    {
+        "Nombre de usuario": "Santi",
+        "Nombre Completo": "Santi",
+        "Mail": "sgsanchez.90@gmail.com",
+        "Fecha de nacimiento": "2024-05-01",
+        "G\u00e9nero": "M"
+    },
+    {
+        "Nombre de usuario": "Santi",
+        "Nombre Completo": "Santi",
+        "Mail": "sgsanchez@gmail.com",
+        "Fecha de nacimiento": "2024-05-01",
+        "G\u00e9nero": "M"
+    },
+    {
+        "Nombre de usuario": "a",
+        "Nombre Completo": "a",
+        "Mail": "a",
+        "Fecha de nacimiento": "2024-05-07",
+        "G\u00e9nero": "M"
+    },
+    {
+        "Nombre de usuario": "Naty",
+        "Nombre Completo": "Natalia Con",
+        "Mail": "nat@gmail.com",
+        "Fecha de nacimiento": "1991-05-12",
+        "G\u00e9nero": "F"
+    },
+    {
+        "Nombre de usuario": "Otro",
+        "Nombre Completo": "blip",
+        "Mail": "blip",
+        "Fecha de nacimiento": "2001-06-13",
+        "G\u00e9nero": "X"
+    },
+    {
+        "Nombre de usuario": "F",
+        "Nombre Completo": "Fe",
+        "Mail": "f@f.com",
+        "Fecha de nacimiento": "2024-06-05",
+        "G\u00e9nero": "F"
+    }
+]

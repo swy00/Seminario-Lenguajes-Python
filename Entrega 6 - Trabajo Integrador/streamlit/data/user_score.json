@@ -1,0 +1,418 @@
+[
+    {
+        "Mail":"a",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-07 17:34:46",
+        "Dificultad":"Alta",
+        "Tema":"Aeropuertos"
+    },
+    {
+        "Mail":"sgsanchez.90@gmail.com",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-13 08:31:14",
+        "Dificultad":"Alta",
+        "Tema":"Aeropuertos"
+    },
+    {
+        "Mail":"sgsanchez@gmail.com",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-13 08:31:39",
+        "Dificultad":"Media",
+        "Tema":"Aeropuertos"
+    },
+    {
+        "Mail":"sgsanchez.90@gmail.com",
+        "Respuesta correctas":1,
+        "Puntaje":2,
+        "Fecha y hora":"2024-06-15 13:21:54",
+        "Dificultad":"Alta",
+        "Tema":"Aeropuertos"
+    },
+    {
+        "Mail":"blip",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-15 13:28:03",
+        "Dificultad":"Alta",
+        "Tema":"Censo 2022"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-15 13:31:22",
+        "Dificultad":"Alta",
+        "Tema":"Censo 2022"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-15 13:33:01",
+        "Dificultad":"Media",
+        "Tema":"Censo 2022"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":2,
+        "Puntaje":2,
+        "Fecha y hora":"2024-06-15 13:33:48",
+        "Dificultad":"F\u00e1cil",
+        "Tema":"Censo 2022"
+    },
+    {
+        "Mail":"nat@gmail.com",
+        "Respuesta correctas":2,
+        "Puntaje":2,
+        "Fecha y hora":"2024-06-15 13:34:45",
+        "Dificultad":"F\u00e1cil",
+        "Tema":"Censo 2022"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":2,
+        "Puntaje":2,
+        "Fecha y hora":"2024-06-15 13:36:08",
+        "Dificultad":"F\u00e1cil",
+        "Tema":"Censo 2022"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-15 13:37:44",
+        "Dificultad":"Alta",
+        "Tema":"Censo 2022"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-15 14:15:37",
+        "Dificultad":"Alta",
+        "Tema":"Aeropuertos"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-15 14:16:44",
+        "Dificultad":"Alta",
+        "Tema":"Aeropuertos"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-15 14:18:25",
+        "Dificultad":"Alta",
+        "Tema":"Aeropuertos"
+    },
+    {
+        "Mail":"nat@gmail.com",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-15 14:22:16",
+        "Dificultad":"Alta",
+        "Tema":"Censo 2022"
+    },
+    {
+        "Mail":"blip",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-15 14:25:59",
+        "Dificultad":"Alta",
+        "Tema":"Aeropuertos"
+    },
+    {
+        "Mail":"blip",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-15 14:29:12",
+        "Dificultad":"Alta",
+        "Tema":"Lagos"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-15 14:33:57",
+        "Dificultad":"Alta",
+        "Tema":"Censo 2022"
+    },
+    {
+        "Mail":"blip",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-15 14:35:20",
+        "Dificultad":"Alta",
+        "Tema":"Conectividad"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-15 14:38:00",
+        "Dificultad":"Alta",
+        "Tema":"Aeropuertos"
+    },
+    {
+        "Mail":"blip",
+        "Respuesta correctas":6,
+        "Puntaje":12,
+        "Fecha y hora":"2024-06-15 14:43:34",
+        "Dificultad":"Alta",
+        "Tema":"Aeropuertos"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-15 14:51:17",
+        "Dificultad":"Alta",
+        "Tema":"Aeropuertos"
+    },
+    {
+        "Mail":"nat@gmail.com",
+        "Respuesta correctas":1,
+        "Puntaje":2,
+        "Fecha y hora":"2024-06-15 14:52:07",
+        "Dificultad":"Alta",
+        "Tema":"Aeropuertos"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-15 14:55:12",
+        "Dificultad":"Alta",
+        "Tema":"Aeropuertos"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-15 14:57:22",
+        "Dificultad":"Alta",
+        "Tema":"Conectividad"
+    },
+    {
+        "Mail":"nat@gmail.com",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-15 15:02:23",
+        "Dificultad":"Alta",
+        "Tema":"Aeropuertos"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-15 15:03:33",
+        "Dificultad":"Alta",
+        "Tema":"Conectividad"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-15 15:04:26",
+        "Dificultad":"Alta",
+        "Tema":"Aeropuertos"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":1,
+        "Puntaje":2,
+        "Fecha y hora":"2024-06-15 15:08:37",
+        "Dificultad":"Alta",
+        "Tema":"Conectividad"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-15 15:11:26",
+        "Dificultad":"Alta",
+        "Tema":"Conectividad"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-15 15:13:03",
+        "Dificultad":"Alta",
+        "Tema":"Conectividad"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-15 15:13:22",
+        "Dificultad":"Alta",
+        "Tema":"Conectividad"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-15 15:16:16",
+        "Dificultad":"Alta",
+        "Tema":"Censo 2022"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-15 15:22:48",
+        "Dificultad":"Alta",
+        "Tema":"Aeropuertos"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":1,
+        "Puntaje":1,
+        "Fecha y hora":"2024-06-10 15:23:18",
+        "Dificultad":"Alta",
+        "Tema":"Censo 2022"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":1,
+        "Puntaje":1,
+        "Fecha y hora":"2024-06-11 15:27:18",
+        "Dificultad":"Alta",
+        "Tema":"Aeropuertos"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":1,
+        "Puntaje":1,
+        "Fecha y hora":"2024-06-12 15:28:18",
+        "Dificultad":"Alta",
+        "Tema":"Censo 2022"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":1,
+        "Puntaje":1,
+        "Fecha y hora":"2024-06-13 15:30:49",
+        "Dificultad":"Alta",
+        "Tema":"Censo 2022"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":1,
+        "Puntaje":1,
+        "Fecha y hora":"2024-06-14 15:32:08",
+        "Dificultad":"Alta",
+        "Tema":"Censo 2022"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":3,
+        "Puntaje":6,
+        "Fecha y hora":"2024-06-15 15:32:39",
+        "Dificultad":"Alta",
+        "Tema":"Censo 2022"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-15 15:34:28",
+        "Dificultad":"Alta",
+        "Tema":"Conectividad"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":1,
+        "Puntaje":1,
+        "Fecha y hora":"2024-06-16 19:00:01",
+        "Dificultad":"F\u00e1cil",
+        "Tema":"Aeropuertos"
+    },
+    {
+        "Mail":"blip",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-16 19:02:16",
+        "Dificultad":"Media",
+        "Tema":"Censo 2022"
+    },
+    {
+        "Mail":"f@f.com",
+        "Respuesta correctas":1,
+        "Puntaje":1,
+        "Fecha y hora":"2024-06-17 11:24:14",
+        "Dificultad":"F\u00e1cil",
+        "Tema":"Aeropuertos"
+    },
+    {
+        "Mail":"f@f.com",
+        "Respuesta correctas":2,
+        "Puntaje":2,
+        "Fecha y hora":"2024-06-17 11:25:30",
+        "Dificultad":"F\u00e1cil",
+        "Tema":"Censo 2022"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":1,
+        "Puntaje":2,
+        "Fecha y hora":"2024-06-17 11:29:40",
+        "Dificultad":"Alta",
+        "Tema":"Censo 2022"
+    },
+    {
+        "Mail":"blip",
+        "Respuesta correctas":3,
+        "Puntaje":6,
+        "Fecha y hora":"2024-06-17 14:13:08",
+        "Dificultad":"Alta",
+        "Tema":"Conectividad"
+    },
+    {
+        "Mail":"blip",
+        "Respuesta correctas":4,
+        "Puntaje":4,
+        "Fecha y hora":"2024-06-17 14:14:12",
+        "Dificultad":"F\u00e1cil",
+        "Tema":"Aeropuertos"
+    },
+    {
+        "Mail":"nat@gmail.com",
+        "Respuesta correctas":4,
+        "Puntaje":8,
+        "Fecha y hora":"2024-06-17 14:32:38",
+        "Dificultad":"Alta",
+        "Tema":"Conectividad"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-17 16:30:18",
+        "Dificultad":"Alta",
+        "Tema":"Aeropuertos"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-18 17:40:30",
+        "Dificultad":"Alta",
+        "Tema":"Aeropuertos"
+    },
+    {
+        "Mail":"a",
+        "Respuesta correctas":0,
+        "Puntaje":0,
+        "Fecha y hora":"2024-06-18 17:44:57",
+        "Dificultad":"Alta",
+        "Tema":"Aeropuertos"
+    }
+]

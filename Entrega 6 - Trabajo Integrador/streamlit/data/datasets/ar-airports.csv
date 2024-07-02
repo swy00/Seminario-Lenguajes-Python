@@ -1,0 +1,756 @@
+,"Tipo (Grande, Mediano, Pequeño, Helipuerto)",Nombre,"Elevacion (bajo, medio, altos)",Provincia,Ciudad,Codigo local
+0,Grande,Minister Pistarini,Bajo,Buenos Aires,Buenos Aires (Ezeiza),Eze
+1,Grande,Jorge Newbery,Bajo,Buenos Aires (Autonomous City),Buenos Aires,Aer
+2,Mediano,Malvinas Argentinas,Bajo,Tierra Del Fuego,Ushuaia,Usu
+3,Mediano,El Calafate - Commander Armando Tola,Medio,Santa Cruz,El Calafate,Eca
+4,Mediano,Cataratas Del Iguazu,Altos,Misiones,Puerto Iguazu,Igu
+5,Mediano,El Plumerillo,Altos,Mendoza,Mendoza,Doz
+6,Mediano,San Carlos De Bariloche,Altos,Rio Negro,San Carlos De Bariloche,Bar
+7,Mediano,Martin Miguel De Guemes,Altos,Salta,Salta,Sal
+8,Mediano,Ingeniero Ambrosio Taravella,Altos,Cordoba,Cordoba,Cba
+10,Mediano,San Fernando,Bajo,Buenos Aires,San Fernando,Fdo
+11,Mediano,Piloto Civil N. Fernandez,Bajo,Santa Cruz,Rio Gallegos,Gal
+12,Mediano,Rosario Islas Malvinas,Bajo,Santa Fe,Rosario,Ros
+13,Mediano,General E. Mosconi,Medio,Chubut,Comodoro Rivadavia,Crv
+14,Mediano,Almirante Marco Andres Zar,Medio,Chubut,Rawson,Tre
+15,Mediano,Capitan D Daniel Vazquez,Medio,Santa Cruz,San Julian,Sju
+16,Mediano,Presidente Peron,Medio,Neuquen,Neuquen,Neu
+17,Mediano,Sauce Viejo,Bajo,Santa Fe,Santa Fe,Svo
+18,Mediano,Gobernador Ramon Trejo Noel,Bajo,Tierra Del Fuego,Rio Grande,Gra
+19,Mediano,Comandante Espora,Medio,Buenos Aires,Bahia Blanca,Bca
+20,Mediano,Astor Piazzola,Bajo,Buenos Aires,Mar Del Plata,Mdp
+21,Mediano,Libertador Gral D Jose De San Martin,Medio,Misiones,Posadas,Pos
+22,Mediano,Santa Rosa,Medio,La Pampa,Santa Rosa,Osa
+23,Mediano,El Palomar,Bajo,Buenos Aires,El Palomar,Pal
+24,Pequeño,Pergamino,Medio,Buenos Aires,Pergamino,Per
+25,Mediano,El Tehuelche,Medio,Chubut,Puerto Madryn,Dry
+26,Pequeño,Moron,Bajo,Buenos Aires,Moron,Mor
+28,Pequeño,Zarate,Bajo,Buenos Aires,Zarate,Ate
+29,Mediano,Coronel Felipe Varela,Altos,Catamarca,Catamarca,Cat
+30,Mediano,Aviador C. Campos,Altos,Neuquen,Chapelco/San Martin De Los Andes,Chp
+31,Mediano,Brigadier Antonio Parodi,Altos,Chubut,Esquel,Esq
+32,Mediano,Puerto Deseado,Medio,Santa Cruz,Puerto Deseado,Ado
+33,Mediano,Santa Cruz,Medio,Santa Cruz,Puerto Santa Cruz,Scz
+34,Mediano,Resistencia,Medio,Chaco,Resistencia,Sis
+35,Mediano,Teniente Benjamin Matienzo,Altos,Tucuman,San Miguel De Tucuman,Tuc
+36,Mediano,Gobernador Horacio Guzman,Altos,Jujuy,San Salvador De Jujuy,Juj
+37,Mediano,Santa Teresita,Bajo,Buenos Aires,Santa Teresita,Str
+38,Mediano,Gobernador Castello,Bajo,Rio Negro,Viedma / Carmen De Patagones,Vie
+39,Mediano,Comodoro Pierrestegui,Bajo,Entre Rios,Concordia,Dia
+40,Pequeño,Ezpeleta,Bajo,Buenos Aires,Ezpeleta,Ezp
+41,Pequeño,Ushuaia Aeroclub,Bajo,Tierra Del Fuego,Ushuaia,Eau
+42,Mediano,Capitan V A Almonacid,Altos,La Rioja,La Rioja,Lar
+43,Mediano,General Urquiza,Medio,Entre Rios,Parana,Par
+44,Mediano,Perito Moreno,Altos,Santa Cruz,Perito Moreno,Ptm
+45,Mediano,Domingo Faustino Sarmiento,Altos,San Juan,San Juan,Jua
+46,Mediano,Vicecomodoro Angel D. La Paz Aragones,Medio,Santiago Del Estero,Santiago Del Estero,Sde
+47,Mediano,General Enrique Mosconi,Altos,Salta,Tartagal,Tar
+48,Mediano,Villa Reynolds,Altos,San Luis,Villa Mercedes,Ryd
+49,Mediano,Heroes De Malvinas,Medio,Buenos Aires,Tandil,Dil
+50,Mediano,Cutral-Co,Altos,Neuquen,Cutral-Co,Cut
+51,Mediano,Villa Gesell,Bajo,Buenos Aires,Villa Gesell,Ges
+52,Pequeño,Gobernador Gregores,Medio,Santa Cruz,Gobernador Gregores,Gre
+53,Pequeño,San Andres De Giles,Medio,Buenos Aires,San Andres De Giles,Gil
+54,Pequeño,Escobar,Bajo,Buenos Aires,Belen De Escobar,Len
+55,Pequeño,Bell Ville,Medio,Cordoba,Bell Ville,Bel
+56,Pequeño,Veinticinco De Mayo,Altos,La Pampa,Colonia Veinticinco De Mayo,Mao
+57,Pequeño,Comandante Luis Piedrabuena,Bajo,Santa Cruz,Comandante Luis Piedrabuena,Lpb
+58,Pequeño,Escuela De Aviacion Militar (Military Aviation School),Altos,Cordoba,Cordoba,Esc
+59,Pequeño,Coronel Olmedo,Altos,Cordoba,Cordoba,Edo
+62,Pequeño,Mariano Moreno,Bajo,Buenos Aires,General Sarmiento,Eno
+63,Pequeño,Isla Martin Garcia,Bajo,Buenos Aires,Isla Martin Garcia,Mgi
+64,Pequeño,Matanza,Bajo,Buenos Aires,La Matanza,Mat
+65,Pequeño,Lobos,Bajo,Buenos Aires,Lobos,Bos
+66,Pequeño,Lujan,Bajo,Buenos Aires,Lujan,Ljn
+67,Pequeño,Mercedes,Medio,Buenos Aires,Mercedes,Mrd
+68,Pequeño,Pigüe,Altos,Buenos Aires,Pigüe,Pig
+69,Pequeño,Quilmes,Bajo,Buenos Aires,Quilmes,Ilm
+70,Pequeño,Salto,Medio,Buenos Aires,Salto,Slt
+71,Pequeño,Trelew Aeroclub,Bajo,Chubut,Trelew,Trw
+72,Mediano,Corrientes,Medio,Corrientes,Corrientes,Crr
+73,Mediano,Aeropuerto Nacional De,Medio,Formosa,Formosa,Fsa
+74,Mediano,Brigadier Mayor D Cesar Raul Ojeda,Altos,San Luis,San Luis,Uis
+75,Mediano,Suboficial Ay Santiago Germano,Altos,Mendoza,San Rafael,Sra
+76,Mediano,Las Heras,Altos,Santa Cruz,Las Heras,Clh
+77,Mediano,Termas De Rio Hondo International,Altos,Santiago Del Estero,Termas De Rio Hondo,Trh
+79,Mediano,Area De Material,Altos,Cordoba,Rio Cuarto,Trc
+80,Mediano,Goya,Bajo,Corrientes,Goya,Goy
+81,Mediano,Gualeguaychu,Bajo,Entre Rios,Gualeguaychu,Gua
+83,Mediano,La Plata,Bajo,Buenos Aires,La Plata,Pta
+84,Mediano,Paso De Los Libres,Medio,Corrientes,Paso De Los Libres,Lib
+85,Mediano,Comodoro Pedro Zanni,Medio,Buenos Aires,Pehuajo,Peh
+86,Mediano,Reconquista,Medio,Santa Fe,Reconquista,Rta
+87,Pequeño,Antoine De Saint Exupery,Bajo,Rio Negro,San Antonio Oeste,San
+88,Pequeño,28 De Noviembre,Altos,Santa Cruz,Rio Turbio,Bio
+89,Pequeño,Alta Gracia,Altos,Cordoba,Alta Gracia,Agr
+90,Pequeño,Arrecifes Aeroclub,Medio,Buenos Aires,Arrecifes,Cif
+91,Pequeño,Azul,Medio,Buenos Aires,Azul,Zul
+92,Pequeño,Baradero,Bajo,Buenos Aires,Baradero,Bdo
+94,Pequeño,Bolivar,Medio,Buenos Aires,Bolivar,Blr
+95,Pequeño,Bragado,Medio,Buenos Aires,Bragado,Bra
+96,Pequeño,Brandsen,Bajo,Buenos Aires,Brandsen,Sen
+97,Pequeño,Campo De Mayo Military,Bajo,Buenos Aires,Campo De Mayo,Cpo
+98,Pequeño,Cañuelas,Bajo,Buenos Aires,Cañuelas,Cna
+99,Pequeño,Aeroclub Capitan,Medio,Buenos Aires,Capitan Sarmiento,Cts
+100,Pequeño,Carmen De Areco,Medio,Buenos Aires,Carmen De Areco,Cno
+101,Pequeño,Chacabuco,Medio,Buenos Aires,Chacabuco,Uco
+102,Pequeño,Chascomus,Bajo,Buenos Aires,Chascomus,Mus
+103,Pequeño,Chivilcoy,Medio,Buenos Aires,Chivilcoy,Chy
+104,Pequeño,Jose De San Martin,Altos,Chubut,Chubut,Jsm
+105,Pequeño,Colon,Medio,Buenos Aires,Colon,Con
+107,Pequeño,Daireaux,Medio,Buenos Aires,Daireaux,Drx
+108,Pequeño,Dean Funes,Altos,Cordoba,Dean Funes,Fun
+109,Pequeño,Dolores,Bajo,Buenos Aires,Dolores,Dol
+110,Pequeño,El Maiten,Altos,Chubut,El Maiten,Ema
+112,Pequeño,El Pajaro,Bajo,Buenos Aires,Florencio Varela,Fva
+113,Pequeño,General Belgrano,Bajo,Buenos Aires,General Belgrano,Gbe
+114,Pequeño,General Las Heras,Bajo,Buenos Aires,General Las Heras,Glh
+115,Pequeño,General Rodriguez Ildefonso Durana,Bajo,Buenos Aires,General Rodriguez,Gez
+116,Pequeño,Los Toldos,Medio,Buenos Aires,General Viamonte,Gnv
+117,Pequeño,Gonzalez Chaves,Medio,Buenos Aires,Gonzalez Chaves,Gvz
+118,Pequeño,Gualeguay,Bajo,Entre Rios,Gualeguay,Uay
+119,Pequeño,Tres Lomas,Medio,Buenos Aires,Jose Maria Blanco,Jmb
+120,Pequeño,Tolosa,Bajo,Buenos Aires,La Plata,Ptl
+121,Pequeño,La Puntilla,Altos,Mendoza,La Puntilla,Dop
+122,Pequeño,Las Flores,Bajo,Buenos Aires,Las Flores,Flo
+123,Pequeño,Lincoln,Medio,Buenos Aires,Lincoln,Lin
+124,Pequeño,La Caida,Bajo,Buenos Aires,Longchamps,Llc
+125,Pequeño,Batan,Medio,Buenos Aires,Mar Del Plata,Mdb
+126,Pequeño,Marcos Paz,Bajo,Buenos Aires,Marcos Paz,Msp
+127,Pequeño,Fumigaciones Ortega,Medio,Buenos Aires,Martinez De Hoz,Dof
+128,Pequeño,Valle Del Conlara,Altos,San Luis,Merlo,Src
+129,Pequeño,Navarro,Bajo,Buenos Aires,Navarro,Nvr
+130,Pequeño,Olavarria,Medio,Buenos Aires,Olavarria,Ola
+131,Pequeño,La Noria Agricultural,Medio,Buenos Aires,Pergamino,Pen
+132,Pequeño,Pinamar,Bajo,Buenos Aires,Pinamar,Pnr
+133,Pequeño,Rio Colorado,Medio,Rio Negro,Rio Colorado,Col
+134,Pequeño,Rio Cuarto Aeroclub,Altos,Cordoba,Rio Cuarto,Cua
+135,Pequeño,Rio Mayo,Altos,Chubut,Rio Mayo,Rmy
+136,Pequeño,America,Medio,Buenos Aires,Rivadavia,Rva
+137,Pequeño,Alvear,Bajo,Santa Fe,Rosario,Sa43
+138,Pequeño,Saladillo,Medio,Buenos Aires,Saladillo,Sdl
+139,Pequeño,Santa Victoria,Altos,Salta,Salta,Vit
+140,Pequeño,San Antonio De Areco,Bajo,Buenos Aires,San Antonio De Areco,Snt
+142,Pequeño,San Miguel Del Monte,Bajo,Buenos Aires,San Miguel Del Monte,Smm
+143,Pequeño,San Nicolas De Los Arroyos,Bajo,Buenos Aires,San Nicolas,Sny
+144,Pequeño,San Pedro,Bajo,Buenos Aires,San Pedro,Ped
+145,Pequeño,El Pampero,Medio,La Pampa,Santa Rosa,Elp
+146,Pequeño,Tolhuin Lago Fagnano,Bajo,Tierra Del Fuego,Tolhuin,Tol
+147,Pequeño,Lago Fagnano North,Medio,Tierra Del Fuego,Toluhin,Thn
+148,Pequeño,La Siesta,Medio,Santa Fe,Venado Tuerto,Vto
+149,Pequeño,Savesa,Medio,Santa Fe,Venado Tuerto,Vts
+150,Pequeño,Venado Tuerto,Medio,Santa Fe,Venado Tuerto,Vno
+151,Pequeño,Punta Indio Naval Air,Bajo,Buenos Aires,Veronica,Pdi
+152,Pequeño,Villa General Belgrano,Altos,Cordoba,Villa General Belgrano,Vgb
+153,Pequeño,Villa Mercedes,Altos,San Luis,Villa Mercedes,Ced
+154,Helipuerto,Dines (Doctor E. Escudero),Bajo,Buenos Aires (Autonomous City),Buenos Aires,Hdi
+155,Helipuerto,Puerto Esperanza,Medio,Misiones,Esperanza,Hpo
+156,Mediano,Necochea,Bajo,Buenos Aires,Necochea,Nec
+157,Mediano,Presidente Nestor Kirchner Regional,Medio,Cordoba,Villa Maria,Vmr
+158,Mediano,Curuzu Cuatia,Medio,Corrientes,Curuzu Cuatia,Cca
+159,Mediano,El Bolson,Altos,Rio Negro,El Bolson,Bol
+160,Mediano,General Pico,Medio,La Pampa,General Pico,Gpi
+161,Mediano,Comodoro D.R. Salomon,Altos,Mendoza,Malargue,Mlg
+162,Mediano,Monte Caseros,Medio,Corrientes,Monte Caseros,Mcs
+163,Mediano,Oran,Altos,Salta,Oran,Ora
+164,Mediano,Rincon De Los Sauces,Altos,Neuquen,Rincon De Los Sauces,Rin
+165,Mediano,Tres Arroyos,Medio,Buenos Aires,Tres Arroyos,Yos
+166,Mediano,Villa Dolores,Altos,Cordoba,Villa Dolores,Ldr
+167,Mediano,Zapala,Altos,Neuquen,Zapala,Zap
+168,Pequeño,Merlo,Medio,San Luis,Merlo,Rlo
+169,Pequeño,Aerodromo Estancia Don,Medio,Chaco,Presidencia Roca,Pdp
+182,Pequeño,Finca La Frontera,Medio,Salta,"Aguaray, San Martin",Smf
+183,Pequeño,Estancia El,Bajo,Entre Rios,Aldea San Antonio,496
+184,Pequeño,Alejandro Roca,Medio,Cordoba,Alejandro Roca,Alr
+185,Pequeño,Allen,Altos,Rio Negro,Allen,All
+186,Pequeño,El Toto,Medio,Cordoba,Alta Gracia,Tot
+187,Pequeño,D. Casimiro Szlapelis,Altos,Chubut,Alto Rio Senguerr,Ars
+189,Pequeño,Alumine,Altos,Neuquen,Alumine,Alu
+190,Pequeño,Agroalvear S.R.L.,Bajo,Santa Fe,Alvear,Alv
+191,Pequeño,Ameghino,Medio,Buenos Aires,Ameghino,Amg
+192,Pequeño,La Chacra,Medio,Buenos Aires,Ameghino,Alc
+193,Pequeño,Sigfrido Rohr Aviagro S.R.L.,Medio,Buenos Aires,Ameghino,Ame
+194,Pequeño,Augusto Leguizamon,Medio,Buenos Aires,Ameghino,Aul
+195,Pequeño,Añatuya,Medio,Santiago Del Estero,Añatuya,Uya
+197,Pequeño,Andalgala,Altos,Catamarca,Andalgala,And
+198,Pequeño,Anillaco,Altos,La Rioja,Anillaco,Ani
+199,Pequeño,Apostoles,Medio,Misiones,Apostoles,Apo
+200,Pequeño,Arias,Medio,Cordoba,Arias,Coa
+202,Pequeño,La Cura Malal,Bajo,Buenos Aires,Arrecifes,Acm
+203,Pequeño,Arribeños,Medio,Buenos Aires,Arribeños,Arb
+204,Pequeño,Arroyito/Arcor,Medio,Cordoba,Arroyito/Arcor,Ary
+207,Pequeño,Ascochinga,Medio,Cordoba,Ascochinga,Nga
+208,Pequeño,Presidente Avellaneda,Medio,Santa Fe,Avellaneda,Avl
+209,Pequeño,Ayacucho,Medio,Buenos Aires,Ayacucho,Aya
+210,Pequeño,Bahia Blanca Aeroclub,Bajo,Buenos Aires,Bahia Blanca,Bhb
+211,Pequeño,Algarrobo/La Reforma,Medio,Buenos Aires,Bahia Blanca,Brf
+214,Pequeño,Balcarce Aeroclub,Medio,Buenos Aires,Balcarce,Bal
+215,Pequeño,Estancia Los Cardos,Medio,Buenos Aires,Balcarce,Blc
+216,Pequeño,Estancia La,Medio,Buenos Aires,Balcarce,Bla
+217,Pequeño,Finca Cuchuy,Altos,Salta,Ballivian,Fcu
+218,Pequeño,Agroservicio Doña Teresa,Medio,Santiago Del Estero,Bandera,Adt
+219,Pequeño,Dutto,Medio,Santiago Del Estero,Bandera,Adu
+221,Pequeño,Basavilbaso,Medio,Entre Rios,Basavilbaso,Bas
+222,Pequeño,La Zulema,Medio,Cordoba,Bell Ville,Zlm
+223,Pequeño,Bella Vista,Medio,Corrientes,Bella Vista,Bta
+224,Pequeño,Benito Juarez,Medio,Buenos Aires,Benito Juarez,Jrz
+225,Pequeño,Bernardo De Irigoyen,Altos,Misiones,Bernardo De Irigoyen,Iri
+226,Pequeño,Dinaluca S.A.,Medio,Corrientes,Beron De Astrada,Bad
+228,Pequeño,Gran Ancona,Medio,Santa Fe,Bombal,Bom
+229,Pequeño,Malfatto,Medio,Buenos Aires,Bragado,Bmo
+232,Pequeño,Pablo Sierra Aeroaplicaciones,Medio,Cordoba,Brinkman,Bps
+233,Pequeño,El Porton,Altos,Neuquen,Buta Ranquil,Brq
+234,Pequeño,Cabildo,Medio,Buenos Aires,Cabildo,Cbd
+235,Pequeño,Cachi,Altos,Salta,Cachi,Ccs
+236,Pequeño,Cafayate,Altos,Salta,Cafayate,Caf
+237,Pequeño,Calchaqui,Medio,Santa Fe,Calchaqui,Cci
+238,Pequeño,Aerocampo Csa,Medio,Cordoba,Calchin,Csa
+239,Pequeño,Caleta Olivia,Bajo,Santa Cruz,Caleta Olivia,Cao
+241,Pequeño,Calilegua,Altos,Jujuy,Calilegua,Cli
+243,Pequeño,Campo Arenal,Altos,Catamarca,Campo Arenal,Cal
+244,Pequeño,Cañada De Gomez,Medio,Santa Fe,Cañada De Gomez,Gom
+245,Pequeño,Blondi,Medio,Cordoba,Cañada De Luque,Cdl
+246,Pequeño,Stiefel,Medio,Santa Fe,Cañada Rosquin,Rst
+247,Pequeño,B&B Servicios Agropecuarios,Medio,Santa Fe,Cañada Rosquin,Cbb
+248,Pequeño,Cañada Rosquin,Medio,Santa Fe,Cañada Rosquin,Sqi
+249,Pequeño,Cañadon Seco,Medio,Santa Cruz,Cañadon Seco,Cds
+250,Pequeño,Canals,Medio,Cordoba,Canals,Cns
+251,Pequeño,Quebracho Herrado,Medio,Buenos Aires,Capitan Sarmiento,Csq
+252,Pequeño,San Patricio,Medio,Buenos Aires,Capitan Sarmiento,Csp
+253,Pequeño,Estancia La Elisa,Medio,Buenos Aires,Capitan Sarmiento,578
+254,Pequeño,Di Giuseppe,Medio,Santa Fe,Carcaraña,Cdi
+255,Pequeño,Carhue,Medio,Buenos Aires,Carhue,Hue
+256,Pequeño,Fumagro,Medio,Buenos Aires,Carhue,Cfu
+257,Pequeño,Haydee,Medio,Buenos Aires,Carlos Caceres,Cch
+258,Pequeño,Carlos Casares,Medio,Buenos Aires,Carlos Casares,Csr
+259,Pequeño,Malatini,Medio,Buenos Aires,Carlos Casares,Ccm
+260,Pequeño,Ottaviani,Medio,Buenos Aires,Carlos Casares,Cco
+261,Pequeño,Las Ensenadas,Altos,Cordoba,Carlos Paz,Cpz
+262,Pequeño,Carlos Tejedor,Medio,Buenos Aires,Carlos Tejedor,Tej
+263,Pequeño,Carmen De Patagones,Bajo,Buenos Aires,Carmen De Patagones,Pat
+264,Pequeño,Los Rulos,Medio,Santiago Del Estero,Casares,Ccr
+265,Pequeño,Casilda,Medio,Santa Fe,Casilda,Ild
+267,Pequeño,Establecimiento La Maria Pilar,Medio,La Pampa,Catrilo,Ctp
+269,Pequeño,Ceres,Medio,Santa Fe,Ceres,Ere
+270,Pequeño,Cerro Catedral,Altos,Rio Negro,Cerro Catedral,Cdm
+271,Pequeño,Las 2 A,Medio,Buenos Aires,Chacabuco,Aii
+272,Pequeño,Chacharramendi,Altos,La Pampa,Chacharramendi,Chr
+274,Pequeño,Chajari,Medio,Entre Rios,Chajari,Chj
+275,Pequeño,Estancia La Choza,Medio,Entre Rios,Chajari,Chc
+276,Pequeño,Chajari Sur,Medio,Entre Rios,Chajari,Csu
+277,Pequeño,Chañar Ladeado,Medio,Santa Fe,Chañar Ladeado,Cld
+278,Pequeño,Charata,Medio,Chaco,Charata,Cha
+279,Pequeño,El Gringo,Medio,Chaco,Charata,Cht
+281,Pequeño,Chilecito,Altos,La Rioja,Chilecito,Ito
+282,Pequeño,Choele Choel,Medio,Rio Negro,Choele Choel,Oel
+283,Pequeño,Cholila,Altos,Chubut,Cholila,Cho
+284,Pequeño,Chos Malal,Altos,Neuquen,Chos Malal,Chm
+285,Pequeño,Estancia Tecka,Altos,Chubut,Chubut,Tec
+287,Pequeño,Cipoletti Aeroclub,Medio,Rio Negro,Cipoletti,Cip
+288,Pequeño,Lanzillota,Altos,Mendoza,Ciudad De Lavalle,Llz
+289,Pequeño,Aerodromo De,Medio,Formosa,Clorinda,Clo
+290,Pequeño,Colon,Bajo,Entre Rios,Colon,Cln
+291,Pequeño,Colonia Tirolesa,Altos,Cordoba,Colonia Tirolesa,Tir
+294,Pequeño,13 De Diciembre,Medio,Chubut,Comodoro Rivadavia,Ico
+295,Pequeño,Concepcion,Altos,Tucuman,Concepcion,Ccp
+296,Pequeño,Concepcion Del Uruguay,Bajo,Entre Rios,Concepcion Del Uruguay,Cdu
+297,Pequeño,Concordia Aeroclub,Bajo,Entre Rios,Concordia,Crd
+299,Pequeño,Copetonas,Medio,Buenos Aires,Copetonas,Cta
+300,Pequeño,Captain D Omar Dario Gelardi,Altos,Cordoba,Cordoba,Fma
+301,Pequeño,La Mezquita,Altos,Cordoba,Cordoba/La Mezquita,Mez
+302,Pequeño,Aerofumigaciones Don Alejandro,Medio,Santa Fe,Coronel Bogado,Ogb
+303,Pequeño,Fumigaciones Campagnucci,Medio,Santa Fe,Coronel Bogado,Bog
+304,Pequeño,Agroservicios,Medio,Santa Fe,Coronel Bogado,Acb
+305,Balloonport,El Manantial,Bajo,Buenos Aires,Coronel Brandsen,Eml
+306,Pequeño,Coronel Dorrego,Medio,Buenos Aires,Coronel Dorrego,Dor
+307,Pequeño,Coronel Moldes,Altos,Cordoba,Coronel Moldes,Mld
+308,Pequeño,Coronel Pringles,Medio,Buenos Aires,Coronel Pringles,Pri
+309,Pequeño,Brigadier D.H.E. Ruiz,Medio,Buenos Aires,Coronel Suarez,Suz
+310,Pequeño,Coronel Vidal,Bajo,Buenos Aires,Coronel Vidal,Vdl
+315,Pequeño,Corral De Bustos,Medio,Cordoba,Corral De Bustos,Bts
+316,Pequeño,Alfomso Mengo,Altos,Cordoba,Corralito,Cam
+317,Pequeño,Lomas Del Espinillo,Altos,Cordoba,Corralito,Cle
+318,Pequeño,Don Moises,Altos,Cordoba,Corralito,Moi
+319,Pequeño,Alvear,Medio,Corrientes,Corrientes,Avr
+320,Pequeño,Ita Ibate,Medio,Corrientes,Corrientes,Cii
+321,Pequeño,Cañada Quiroz,Medio,Corrientes,Corrientes,Cqz
+322,Pequeño,Santa Maria,Altos,Cordoba,Cosquin,Cqn
+324,Pequeño,Cristo Redentor,Altos,Mendoza,Cristo Redentor,Cri
+325,Pequeño,Cruz Alta,Medio,Cordoba,Cruz Alta,Alt
+327,Pequeño,Curuzu Cuatia Aeroclub,Medio,Corrientes,Curuzu Cuatia,Czu
+328,Pequeño,Estancia San Juan,Medio,Corrientes,Curuzu Cuatia,Hsj
+329,Pequeño,Fumigaciones Rodriguez,Medio,Buenos Aires,Daireaux,Dfr
+330,Pequeño,Darregueira,Medio,Buenos Aires,Darregueira,Dar
+341,Pequeño,Diamante,Medio,Entre Rios,Diamante,Dte
+343,Pequeño,Eduardo Castex,Medio,La Pampa,Eduardo Castex,Ecx
+345,Pequeño,Aeroclub De El Chalten Alf. G.N.A. Walter Omar D,Altos,Santa Cruz,El Chalten,Elx
+348,Pequeño,Estancia Caridad,Altos,Chubut,El Corcovado,Vec
+350,Pequeño,El Dorado,Medio,Misiones,El Dorado,Eld
+351,Pequeño,Aerodromo De La Estancia San,Medio,Formosa,El Espinillo,Esr
+354,Pequeño,Chevron Texaco,Altos,Neuquen,El Trapial,Txo
+355,Pequeño,El Trebol,Medio,Santa Fe,El Trebol,Etb
+356,Pequeño,Burdisso,Medio,Santa Fe,El Trebol,Tbl
+357,Pequeño,Bernardo'S,Medio,Santa Fe,El Trebol,Tdb
+358,Pequeño,Estancia Santa Ana,Medio,Santa Cruz,El Turbio,Hts
+359,Pequeño,Salvita,Altos,Salta,Embarcacion,Slv
+362,Pequeño,Anibal Brizi,Bajo,Santa Fe,Esperanza,Ebf
+363,Pequeño,Esperanza,Bajo,Santa Fe,Esperanza,Epz
+364,Pequeño,Lago La Esperanza,Altos,Chubut,Esquel,Lza
+365,Pequeño,Esquina,Bajo,Corrientes,Esquina,Esn
+367,Pequeño,Aerodromo San,Medio,Formosa,Estancia Alegria,380
+370,Pequeño,Ita Caabo,Medio,Corrientes,Estancia Ita Caabo,529
+378,Pequeño,San Vicente,Altos,Misiones,Fabiano,Vte
+379,Pequeño,La Angelita,Medio,Entre Rios,Federal,Fag
+380,Pequeño,Fiambala,Altos,Catamarca,Fiambala,2380
+381,Pequeño,Firmat Aeroclub,Medio,Santa Fe,Firmat,Fae
+382,Pequeño,Firmat,Medio,Santa Fe,Firmat,Fim
+386,Pequeño,Aerodromo Sede Del Aeroclub,Medio,Formosa,Formosa,For
+388,Pequeño,El,Medio,Salta,Fortin Dragones,Fdd
+389,Pequeño,Frias,Altos,Santiago Del Estero,Frias,Frs
+390,Pequeño,Alagro Fumigaciones,Bajo,Santa Fe,Funes,Une
+391,Pequeño,Galvez,Medio,Santa Fe,Galvez,Vez
+392,Pequeño,Cabaña Los Gatos,Medio,Santiago Del Estero,Gancedo,2802
+393,Pequeño,Agroaire,Medio,Chaco,Gancedo,Gai
+394,Pequeño,Pulverizaciones M.H.,Medio,Chaco,Gancedo,Gdo
+397,Pequeño,Las Marias,Medio,Corrientes,Gdor. Valentin Virasoro,Vso
+398,Pequeño,General Acha,Altos,La Pampa,General Acha,Ach
+400,Pequeño,General Alvear,Altos,Mendoza,General Alvear,Gna
+401,Pequeño,General Alvear Aeroclub,Altos,Mendoza,General Alvear,Gva
+402,Pequeño,General Belgrano,Altos,Salta,General Belgrano - Salta,Gbl
+403,Pequeño,General Deheza,Medio,Cordoba,General Deheza,Gdh
+404,Pequeño,General La Madrid,Medio,Buenos Aires,General La Madrid,Lam
+405,Pequeño,General Levalle,Medio,Cordoba,General Levalle,Lev
+406,Pequeño,General Madariaga,Bajo,Buenos Aires,General Madariaga,Mad
+407,Pequeño,Finca La Hercilia,Altos,Salta,General Mosconi,Flh
+408,Pequeño,Caa Cati,Medio,Corrientes,General Paz,Cac
+409,Pequeño,Cereales Anahi Ruca,Medio,La Pampa,General Pico,Gpf
+410,Pequeño,Ñancu,Medio,La Pampa,General Pico,Gpu
+411,Pequeño,Estancia Trebolares,Medio,La Pampa,General Pico,938
+412,Pequeño,General Pìnedo,Medio,Chaco,General Pìnedo,Gpo
+413,Pequeño,Kalbermatter,Medio,Chaco,General Pinedo,Gpk
+414,Pequeño,Alfredo Sanchez,Medio,Buenos Aires,General Pinto,Sez
+415,Pequeño,General Pinto,Medio,Buenos Aires,General Pinto,Pnt
+416,Pequeño,Dr. Arturo H. Illia,Medio,Rio Negro,General Roca,Gnr
+417,Pequeño,General San Martin (La Pampa),Medio,La Pampa,General San Martin,Smt
+418,Pequeño,General Villegas,Medio,Buenos Aires,General Villegas,Gas
+419,Pequeño,El Girasol,Bajo,Buenos Aires,Gobernador Castro,Goc
+420,Pequeño,Gobernador Crespo Aeroclub,Medio,Santa Fe,Gobernador Crespo,Gcr
+421,Pequeño,Agro Servicio Yoris,Altos,Tucuman,Gobernador Garmendia,Gyt
+423,Pequeño,Estancia Villa Corina,Medio,Corrientes,Gobernador Valentin Virasoro,Evc
+424,Pequeño,Gomez,Bajo,Buenos Aires,Gomez,Goz
+425,Pequeño,Goya,Bajo,Corrientes,Goya,Gya
+426,Pequeño,Italaviation,Medio,Corrientes,Goya,Git
+427,Pequeño,Agro Aereo Gualeguay,Bajo,Entre Rios,Gualeguay,Gaa
+428,Pequeño,Gualeguay Aeroclub,Bajo,Entre Rios,Gualeguay,Uae
+430,Pequeño,Estancia La Providencia,Bajo,Entre Rios,Gualeguaychu,Glp
+431,Pequeño,Estancia El Potrero,Bajo,Entre Rios,Gualeguaychu,Gep
+434,Pequeño,Estancia Santa Elisa,Medio,Misiones,Guaviravi,Gse
+439,Pequeño,Henderson,Medio,Buenos Aires,Henderson,Hds
+440,Pequeño,Hernando,Altos,Cordoba,Hernando,Nan
+441,Pequeño,Huanguelen,Medio,Buenos Aires,Huanguelen,Hug
+442,Pequeño,Plus Agroservicios Aereos S.R.L.,Medio,Santa Fe,Hughes,Hgs
+443,Pequeño,Huinca Renanco,Medio,Cordoba,Huinca Renanco,Hui
+444,Pequeño,Establecimiento La Adelita,Medio,Santa Fe,Humboldt,Hum
+445,Pequeño,Fumigaciones Fredy,Medio,Buenos Aires,Hunter,Prc
+446,Pequeño,Belingueres Aviacion,Medio,Buenos Aires,Ines Indart,Iba
+447,Pequeño,Ingeniero Jacobacci - Captain H R Bordon,Altos,Rio Negro,Ingeniero Jacobacci,Ijc
+449,Pequeño,Ingeniero Luiggi,Medio,La Pampa,Ingeniero Luiggi,Igl
+451,Pequeño,Intendente Alvear,Medio,La Pampa,Intendente Alvear,Ial
+453,Pequeño,Azcarate Irastorza,Medio,La Pampa,Intendente Alvear,Iaa
+454,Pequeño,Don Hector Biondi,Medio,Cordoba,Isla Verde,Ivb
+455,Pequeño,Biondi,Medio,Cordoba,Isla Verde,Ivl
+456,Pequeño,Islas Del Ibicuy,Bajo,Entre Rios,Islas Del Ibicuy,Iby
+457,Pequeño,Itati,Medio,Corrientes,Itati,Cit
+458,Pequeño,Aerodromo,Medio,Corrientes,Itati,Cti
+460,Pequeño,Jachal,Altos,San Juan,Jachal,Jac
+461,Pequeño,Jacinto Arauz,Medio,La Pampa,Jacinto Arauz,Jar
+462,Pequeño,Jardin De America,Medio,Misiones,Jardin De America,Jda
+463,Pequeño,Jesus Maria,Altos,Cordoba,Jesus Maria,Jes
+464,Pequeño,Agropecuaria Rio Juramento,Altos,Salta,Joaquin V. Gonzalez,Jga
+466,Pequeño,Antares,Medio,Cordoba,Jovita,Joc
+467,Pequeño,La Madrugada,Medio,Buenos Aires,Juan N. Fernandez,Lmd
+468,Pequeño,Juarez Celman,Altos,Cordoba,Juarez Celman,Jcm
+469,Pequeño,Puerta De Avalos,Altos,Jujuy,Jujuy,Pda
+471,Pequeño,Hosteria San Huberto,Altos,Neuquen,Junin De Los Andes,Jah
+472,Pequeño,San Ignacio,Altos,Neuquen,Junin De Los Andes,Jla
+473,Pequeño,La Carlota,Medio,Cordoba,La Carlota,Lct
+474,Pequeño,Casajus,Medio,Cordoba,La Carlota,Lcc
+477,Pequeño,La Cumbre,Altos,Cordoba,La Cumbre,Cum
+478,Pequeño,La Laja,Altos,San Juan,La Laja,Aja
+479,Pequeño,La Paz,Medio,Entre Rios,La Paz,Lpz
+480,Pequeño,La Paz Aeroclub,Medio,Entre Rios,La Paz,Laz
+482,Pequeño,La Pelada,Medio,Santa Fe,La Pelada,Pel
+484,Pequeño,La Quiaca,Altos,Jujuy,La Quiaca,Iac
+485,Pequeño,Don Emilio,Altos,Tucuman,La Ramada De Abajo,Lre
+486,Pequeño,Laborde,Medio,Cordoba,Laborde,Lab
+487,Pequeño,Laboulaye,Medio,Cordoba,Laboulaye,Lye
+488,Pequeño,Caviahue,Altos,Neuquen,Lafontaine,Cvh
+492,Pequeño,Lago Buenos Aires,Altos,Santa Cruz,Lago Buenos Aires,Bai
+493,Pequeño,Estancia Suyai - Lago Pueyrredon,Medio,Santa Cruz,Lago Posados,2605
+495,Pequeño,Laguna De Gomez,Medio,Buenos Aires,Laguna De Gomez,Ldg
+496,Pequeño,Laguna Larga,Altos,Cordoba,Laguna Larga,Lrg
+497,Pequeño,Lanteri,Medio,Santa Fe,Lanteri,Lan
+498,Pequeño,Laprida,Medio,Buenos Aires,Laprida,Lpr
+499,Pequeño,Agroalas S.R.L.,Altos,Tucuman,Las Cejas,Cej
+500,Pequeño,Los Perales,Altos,Santa Cruz,Las Heras,Lhp
+501,Pequeño,Las Lajas,Altos,Neuquen,Las Lajas,Llj
+502,Pequeño,Aerosoluciones,Altos,Salta,Las Lajitas,Lla
+503,Pequeño,Alferez Armando Rodriguez,Medio,Formosa,Las Lomitas,Ita
+504,Pequeño,Las Ovejas,Altos,Neuquen,Las Ovejas,Ovj
+505,Pequeño,Aerodromo,Medio,Chaco,Las Palmas,Lpp
+506,Pequeño,El Gaucho,Medio,Santa Fe,Las Parejas,Ego
+507,Pequeño,Las Rosas,Medio,Santa Fe,Las Rosas,Lrs
+508,Pequeño,Horizonte Aplicaciones Areas,Medio,Santa Fe,Las Rosas,Lrt
+509,Pequeño,Las Varillas,Medio,Cordoba,Las Varillas,Lvl
+510,Pequeño,Ginevro,Medio,Cordoba,Las Varillas,Lvr
+511,Pequeño,Estancia Las Marias,Altos,San Luis,Lenadro N. Alem,2809
+512,Pequeño,Leones,Medio,Cordoba,Leones,Leo
+513,Pequeño,Don Alberto,Bajo,Catamarca,Lezama,Lda
+514,Pequeño,La Esmeralda,Medio,Corrientes,Libertad,Lle
+516,Pequeño,La Nueva,Medio,Buenos Aires,Lincoln,Lnv
+517,Pequeño,Estancia Los Leones,Bajo,Santa Fe,Llambi Cambel,750
+519,Pequeño,Loberia,Medio,Buenos Aires,Loberia,Lbi
+520,Pequeño,Nika,Medio,Buenos Aires,Loberia,Nik
+522,Pequeño,Loncopue,Altos,Neuquen,Loncopue,Lcp
+523,Pequeño,Londres/Belen,Altos,Catamarca,Londres/Belen,Bln
+525,Pequeño,Los Cardos,Medio,Santa Fe,Los Cardos,Lcd
+526,Pequeño,Buena Esperanza,Medio,Entre Rios,Los Conquistadores,Eza
+527,Pequeño,El Cuadrado,Medio,Santiago Del Estero,Los Juries,2713
+528,Pequeño,Los Menucos,Altos,Rio Negro,Los Menucos,Mco
+529,Pequeño,Establecimiento La Florencia,Medio,Santa Fe,Los Molinos,Lmf
+531,Pequeño,Estancia Villa,Bajo,Buenos Aires,Lujan,Lvm
+533,Pequeño,Macachin,Medio,La Pampa,Macachin,Mac
+535,Pequeño,Samave,Medio,Santa Fe,Maggiolo,Mab
+536,Pequeño,Establecimiento El Araza,Medio,Buenos Aires,Maipu,Hza
+537,Pequeño,Maipu,Bajo,Buenos Aires,Maipu,Mpu
+538,Pequeño,Malabrigo,Medio,Santa Fe,Malabrigo,Mla
+539,Pequeño,Maquinchao,Altos,Rio Negro,Maquinchao,Maq
+540,Pequeño,Parque Hermoso,Medio,Buenos Aires,Mar Del Plata,Mph
+541,Pequeño,Mar Del Plata Gliding,Medio,Buenos Aires,Mar Del Plata,Mpp
+542,Pequeño,Estancia Lucila,Bajo,Buenos Aires,Mar Del Sur,Ell
+543,Pequeño,Estancia El Cencerro,Medio,Santa Fe,Marcelino Escalada,451
+544,Pequeño,Marcos Juarez,Medio,Cordoba,Marcos Juarez,Mjz
+545,Pequeño,Agrocelta Servicios Aereos,Medio,Buenos Aires,Mariano H. Alfonzo,Agc
+547,Pequeño,Mendoza,Altos,Mendoza,Mendoza,Mae
+548,Pequeño,Estancia Santa Romana,Altos,San Luis,Mercedes,Msr
+549,Pequeño,Mercedes,Medio,Corrientes,Mercedes,Rce
+551,Pequeño,Metan,Altos,Salta,Metan,Mtn
+552,Pequeño,Mina Clavero,Altos,Cordoba,Mina Clavero,Mcl
+554,Pequeño,Miramar,Bajo,Buenos Aires,Miramar,Ira
+555,Pequeño,Bellamar,Bajo,Buenos Aires,Miramar,Mbl
+556,Pequeño,Las Cortaderas,Bajo,Buenos Aires,Miramar,Bll
+557,Pequeño,Fumigaciones Gonzalez,Bajo,Santa Fe,Monje,Mon
+558,Pequeño,Pedro Ferrari,Medio,Cordoba,Monte Buey,Mbf
+559,Pequeño,El Pilincho,Medio,Corrientes,Monte Caseros,Mcp
+560,Pequeño,Timboy,Medio,Corrientes,Monte Caseros,Mct
+562,Pequeño,Monte Maiz,Medio,Cordoba,Monte Maiz,Mai
+563,Pequeño,Monte Quemado,Medio,Santiago Del Estero,Monte Quemado,Mtq
+565,Pequeño,Scaro,Altos,Jujuy,Monterrico,Mts
+566,Pequeño,Montes De Oca,Bajo,Santa Fe,Montes De Oca,Oca
+567,Pequeño,Aeroboero,Medio,Cordoba,Morteros,Boe
+568,Pequeño,Morteros,Medio,Cordoba,Morteros,Mtr
+569,Pequeño,Campo San Jose,Medio,Cordoba,Morteros,Csj
+570,Pequeño,Lago Nahuel Huapi,Altos,Rio Negro,Nahuel Huapi,Lnh
+571,Pequeño,Iriberri,Bajo,Buenos Aires,Necochea,Nei
+572,Pequeño,Pulverizaciones Aerosur,Bajo,Buenos Aires,Necochea,Npa
+574,Pequeño,Loma La Lata,Altos,Neuquen,Neuquen,Oma
+575,Pequeño,Juan Carlos Bagur,Medio,Entre Rios,Nogoya,Njb
+576,Pequeño,Nogoya,Medio,Entre Rios,Nogoya,Nog
+577,Pequeño,Norberto De La Riestra,Bajo,Buenos Aires,Norberto De La Riestra,Ndr
+578,Pequeño,Finca Toloche,Altos,Salta,Nuestra Señora De Talavera,Nst
+580,Pequeño,Nueve De Julio,Medio,Buenos Aires,Nueve De Julio,Lio
+581,Pequeño,Obera,Altos,Misiones,Obera,Obe
+582,Pequeño,Olavarria Aeroclub,Medio,Buenos Aires,Olavarria,Olc
+583,Pequeño,Oliva,Medio,Cordoba,Oliva,Olv
+584,Pequeño,Parana Aeroclub,Medio,Entre Rios,Parana,Ana
+585,Pequeño,Parana Club De Planeadores,Medio,Entre Rios,Parana,Pna
+586,Pequeño,Paso De Los Indios,Medio,Chubut,Paso De Los Indios,Ind
+587,Pequeño,Las Lilas,Medio,Buenos Aires,Pasteur,Pas
+588,Pequeño,Pedro Luro,Bajo,Buenos Aires,Pedro Luro,Uro
+589,Pequeño,La Mariela,Medio,Buenos Aires,Pehuajo,Pjo
+590,Pequeño,Pellegrini,Medio,Buenos Aires,Pellegrini,Plg
+591,Pequeño,El Recuerdo S.R.L.,Medio,Cordoba,Pescanas,Pan
+592,Pequeño,La Caldonia,Medio,Santa Fe,Piamonte,1063
+593,Pequeño,Pichanal-Franzini,Altos,Salta,Pichanal,2105
+594,Pequeño,Piedra Del Aguila,Altos,Neuquen,Piedra Del Aguila,Agi
+595,Pequeño,Servicios,Medio,Buenos Aires,Pigüe,Psa
+596,Pequeño,Pilar,Altos,Cordoba,Pilar,Pil
+598,Pequeño,Estancia La Carolina,Bajo,Santa Fe,Piñero,Plc
+599,Pequeño,Sas Aeroaplicaciones,Altos,Salta,Piquete Cabado,Pca
+600,Pequeño,Finca Porvenir 8,Altos,Salta,Piquete Cabado,2800
+601,Pequeño,Aerodromo De La Estancia La,Medio,Formosa,Pirane,Pls
+602,Pequeño,Poblet,Bajo,Buenos Aires,Poblet,Pbe
+603,Pequeño,Bonetti,Medio,Misiones,Posadas,Pbo
+606,Pequeño,Aerodromo Estancia La,Medio,Chaco,Presidencia Roca,Pra
+608,Pequeño,Termal,Medio,Chaco,Presidencia Roque Saenz Peña,Psp
+609,Pequeño,Rovere,Medio,Chaco,Presidencia Roque Saenz Peña,Psv
+610,Pequeño,Puan,Medio,Buenos Aires,Puan,Pua
+611,Pequeño,Buenos Aires,Bajo,Buenos Aires,"Pueblo Alsina, Baradero",Bex
+612,Pequeño,Puelches,Medio,La Pampa,Puelches,Pue
+613,Pequeño,Puerto Deseado West,Medio,Santa Cruz,Puerto Deseado,Des
+620,Pequeño,Terminal 6,Bajo,Santa Fe,Puerto San Martin,Pst
+621,Pequeño,La Lucia,Medio,Santa Fe,Pujato,Pll
+622,Pequeño,Pettilep,Medio,Santa Fe,Pujato,Pup
+624,Pequeño,Punta Alta,Bajo,Buenos Aires,Punta Alta,Plt
+625,Pequeño,Punta De Vacas,Altos,Mendoza,Punta De Vacas,Pdv
+628,Pequeño,Estancia La,Bajo,Chubut,Punta Roja,Lae
+629,Pequeño,Quemu Quemu,Medio,La Pampa,Quemu Quemu,Muq
+630,Pequeño,Moromar,Bajo,Buenos Aires,Quequen,Uen
+632,Pequeño,Rafaela,Medio,Santa Fe,Rafaela,Rla
+633,Pequeño,La Igualdad,Bajo,Buenos Aires,Ranchos,Rai
+634,Pequeño,Rauch,Medio,Buenos Aires,Rauch,Rau
+635,Pequeño,Rawson,Bajo,Chubut,Rawson,Raw
+637,Pequeño,Realico,Medio,La Pampa,Realico,Rlc
+640,Pequeño,Aeroclub Chaco,Medio,Chaco,Resistencia,Res
+641,Pequeño,Nueva Valencia,Medio,Corrientes,Riachuelo,Env
+642,Pequeño,Don Jose,Bajo,Santa Fe,Ricardone,Rdj
+643,Pequeño,Pettilep Ii,Medio,Santa Fe,Ricardone,Pep
+648,Pequeño,Vale,Altos,Mendoza,Rio Colorado,Rcv
+649,Pequeño,Estindher,Altos,Cordoba,Rio Cuarto,Rie
+650,Pequeño,Rio Chico,Bajo,Santa Cruz,Rio Gallegos,Rgr
+651,Pequeño,Las Termas,Medio,Santiago Del Estero,Rio Hondo,Rho
+653,Pequeño,Rio Tercero,Altos,Cordoba,Rio Tercero,Rcr
+654,Pequeño,Rivadavia,Medio,Salta,Rivadavia,Riv
+655,Pequeño,Aerotec,Altos,Mendoza,Rivadavia,Rae
+656,Pequeño,Rivadavia,Altos,Mendoza,Rivadavia,Rvd
+657,Pequeño,Fumigaciones Herbinsec,Medio,Buenos Aires,Roberts,Roh
+658,Pequeño,Aeroagereo,Medio,Buenos Aires,Roberts,Rob
+659,Pequeño,La,Medio,Buenos Aires,Roberts,Ama
+660,Pequeño,Fumigaciones Herbinsec,Medio,Buenos Aires,Roberts,Roh
+661,Pequeño,Rojas,Bajo,Buenos Aires,Rojas,Rja
+662,Pequeño,Pueblo Esther,Bajo,Santa Fe,Rosario,Rop
+663,Pequeño,Rosario De La Frontera,Altos,Salta,Rosario De La Frontera,Fro
+664,Pequeño,Rosario Del Tala,Medio,Entre Rios,Rosario Del Tala,Rot
+665,Pequeño,Rufino,Medio,Santa Fe,Rufino,Ruf
+666,Pequeño,Bsg,Medio,Santa Fe,Rufino,Rbs
+667,Pequeño,Saavedra,Altos,Buenos Aires,Saavedra,Dra
+668,Pequeño,Parajon,Medio,Buenos Aires,Saforcada,Saf
+669,Pequeño,Santa Rita,Medio,Buenos Aires,Saladillo,Ssr
+670,Pequeño,Abelenda,Bajo,Buenos Aires,Saladillo,Sab
+671,Pequeño,Salar De Cauchari,Altos,Jujuy,Salar De Cauchari,Sdc
+672,Pequeño,Estancia El Triangulo,Medio,Buenos Aires,Salazar,Slz
+673,Pequeño,Saldungaray,Medio,Buenos Aires,Saldungaray,Slg
+674,Pequeño,Santo Tomas De La Sierra,Medio,Buenos Aires,Saldungaray,Sly
+675,Pequeño,Salliquelo,Medio,Buenos Aires,Salliquelo,Slo
+676,Pequeño,Skare,Medio,Buenos Aires,Salto,Ssk
+678,Pequeño,El,Medio,Buenos Aires,San Andres De Giles,Lad2230
+679,Pequeño,Lad 2198 Juan Jose,Medio,Buenos Aires,San Andres De Giles,Lad2198
+680,Pequeño,Haras La Pomme,Bajo,Buenos Aires,San Antonio De Areco,Shp
+682,Pequeño,San Benito,Medio,Entre Rios,San Benito,Sbe
+683,Pequeño,San Carlos,Altos,Mendoza,San Carlos,Car
+685,Pequeño,San Cayetano,Medio,Buenos Aires,San Cayetano,Cay
+686,Pequeño,San Cristobal,Medio,Santa Fe,San Cristobal,Sct
+687,Pequeño,San Francisco,Medio,Cordoba,San Francisco,Fra
+688,Pequeño,San Gregorio,Medio,Santa Fe,San Gregorio,Sge
+689,Pequeño,Vergnano,Medio,Santa Fe,San Guillermo,Sgv
+690,Pequeño,Aeroclub San,Bajo,Santa Fe,San Javier,Sjr
+691,Pequeño,San Jorge,Medio,Santa Fe,San Jorge,Jor
+692,Pequeño,Bocca,Medio,Santa Fe,San Jorge,Sjb
+693,Pequeño,San Jose De La Dormida,Altos,Cordoba,San Jose De La Dormida,Sjd
+694,Pequeño,San Juan Aeroclub,Altos,San Juan,San Juan,Sja
+695,Pequeño,San Justo,Medio,Santa Fe,San Justo,Sjt
+696,Pequeño,Chialva S. H.,Medio,Cordoba,San Marcos,Sms
+697,Pequeño,Aeroclub San,Altos,Mendoza,San Martin,Sti
+698,Pequeño,Jujuy Aeroclub,Altos,Jujuy,San Salvador De Jujuy,Jja
+699,Pequeño,Casilda Fumigaciones,Medio,Santa Fe,Sanford,Scf
+700,Pequeño,Santa Clara De Saguier,Medio,Santa Fe,Santa Clara De Saguier,Scl
+701,Pequeño,Estancia San Ramon,Altos,Santa Cruz,Santa Cruz,Hsr
+705,Pequeño,Santa Maria,Altos,Catamarca,Santa Maria,Smc
+706,Pequeño,Fortin De Gainza,Medio,Buenos Aires,Santa Regina,Sre
+707,Pequeño,San Alberto,Medio,La Pampa,Santa Rosa,Slp
+710,Pequeño,Condor Del Aire,Medio,Santa Fe,Sargento Cabral,Cda
+711,Pequeño,Lago Musters,Medio,Chubut,Sarmiento,Lgm
+712,Pequeño,Colonia Sarmiento,Medio,Chubut,Sarmiento,Sto
+713,Pequeño,Fumigaciones Nando,Medio,Santiago Del Estero,Selva Nueva,Sfn
+714,Pequeño,Fumigaciones Stadler,Bajo,Santa Fe,Serodino,Ser
+715,Pequeño,Sierra Grande,Medio,Rio Negro,Sierra Grande,Sgr
+716,Pequeño,Bahia Dorada,Bajo,Rio Negro,Sierra Grande,Bdr
+717,Pequeño,Estancia 13 De Abril,Medio,Buenos Aires,Smith,2064
+718,Pequeño,Stroeder,Bajo,Buenos Aires,Stroeder,Std
+720,Pequeño,Sunchales Aeroclub,Medio,Santa Fe,Sunchales,Sca
+721,Pequeño,Rincon De Luna,Medio,Corrientes,Tabay,1300
+723,Pequeño,Estancia La Estrella,Medio,Buenos Aires,Tandil,Ble
+727,Pequeño,F.A.T.,Medio,Santa Fe,Teodelina,Teo
+728,Pequeño,Tilisarao,Altos,San Luis,Tilisarao,Tls
+730,Pequeño,Establecimiento El 21,Medio,Santiago Del Estero,Tintina,Tev
+731,Pequeño,Tio Pujio,Medio,Cordoba,Tio Pujio,Tio
+733,Pequeño,Tornquist,Altos,Buenos Aires,Tornquist,Tor
+734,Pequeño,Estancia San Vicente,Medio,Santa Fe,Tortugas,Tsv
+735,Pequeño,Tostado,Medio,Santa Fe,Tostado,Tos
+736,Pequeño,Trenque Lauquen,Medio,Buenos Aires,Trenque Lauquen,Lau
+737,Pequeño,Ñanco Lauquen,Medio,Buenos Aires,Trenque Lauquen,Tql
+738,Pequeño,La Argentina,Medio,Buenos Aires,Trenque Lauquen,Atn
+739,Pequeño,Petrazzini,Medio,Buenos Aires,Tres Arroyos,Yop
+740,Pequeño,Santagiulian,Medio,Buenos Aires,Tres Arroyos,Sgi
+742,Pequeño,Cerro Vanguardia,Medio,Santa Cruz,Tres Cerros,2356
+743,Pequeño,Trevelin,Altos,Chubut,Trevelin,Tvn
+744,Pequeño,Los Tucanes,Altos,Tucuman,Tucuman,Tut
+745,Pequeño,Horco Molle Aeroclub,Altos,Tucuman,Tucuman,Tcm
+746,Pequeño,Urdinarrain,Medio,Entre Rios,Urdinarrain,Urd
+747,Pequeño,Estancia Los Lobles,Medio,La Pampa,Uriburu,Url
+748,Pequeño,Uspallata,Altos,Mendoza,Uspallata,Usp
+749,Pequeño,Valcheta,Medio,Rio Negro,Valcheta,Val
+751,Pequeño,Valle Hermoso,Altos,Mendoza,Valle Hermoso,Vhe
+752,Pequeño,Vedia,Medio,Buenos Aires,Vedia,Vda
+753,Pequeño,Veinticinco De Mayo,Medio,Buenos Aires,Veinticinco De Mayo,May
+754,Pequeño,Vera,Medio,Santa Fe,Vera,Ver
+755,Pequeño,Veronica,Bajo,Buenos Aires,Veronica,Vna
+756,Pequeño,Victoria,Bajo,Entre Rios,Victoria,Vic
+757,Pequeño,Victorica,Altos,La Pampa,Victorica,Vca
+758,Pequeño,Martin Fierro,Medio,Cordoba,Vicuña Mackena,Vmk
+759,Pequeño,Don Angel,Medio,Cordoba,Vicuña Mackenna,Vma
+760,Pequeño,Beneficios S.R.L.,Medio,Cordoba,Vicuña Mackenna,Vmb
+761,Pequeño,Comequechen,Medio,Cordoba,Vicuña Mackenna,Vmc
+762,Pequeño,Estancia La Criolla,Medio,Buenos Aires,Vienticinco De Mayo,Elc
+763,Pequeño,Servicios Agroaereos,Medio,Buenos Aires,Vienticinco De Mayo,Msa
+764,Pequeño,Hallpa Huayra,Altos,Cordoba,Villa Amancay,Vay
+765,Pequeño,Villa Angela,Medio,Chaco,Villa Angela,Van
+766,Pequeño,Suboficial Auxiliar Miguel A. Cardone,Medio,Santa Fe,Villa Cañas,Vcc
+767,Pequeño,Acindar,Bajo,Santa Fe,Villa Constitucion,Ion
+769,Pequeño,Villa De Soto,Altos,Cordoba,Villa De Soto,Sot
+770,Pequeño,Villa Del Rosario,Medio,Cordoba,Villa Del Rosario,Vdr
+771,Pequeño,Villa General Mitre,Altos,Cordoba,Villa General Mitre,Vgm
+772,Pequeño,Villa Maria,Medio,Cordoba,Villa Maria Del Rio Seco,Mra
+773,Pequeño,Estancia Don Roberto,Altos,San Luis,Villa Mercedes,Ert
+774,Pequeño,Las Totoritas,Altos,San Luis,Villa Mercedes,Vmt
+775,Pequeño,Villa Minetti,Medio,Santa Fe,Villa Minetti,Min
+776,Pequeño,Suarez Aviacion,Medio,Entre Rios,Villa Nueva,Vns
+777,Pequeño,Raig S.A.,Medio,Cordoba,Villa Nueva,Vnr
+778,Pequeño,Villa Ocampo,Medio,Santa Fe,Villa Ocampo,Vpo
+779,Pequeño,Villa Regina,Altos,Rio Negro,Villa Regina,Vrg
+780,Pequeño,Villa Rumipal,Altos,Cordoba,Villa Rumipal,Vru
+781,Pequeño,Villa Valeria,Altos,Cordoba,Villa Valeria,Cvv
+782,Pequeño,Villaguay,Bajo,Entre Rios,Villaguay,Vig
+783,Pequeño,El Jagüel,Medio,Entre Rios,Villaguay,Uel
+784,Pequeño,El Malagueño,Medio,Entre Rios,Villaguay,Vll
+787,Pequeño,Yapeyu,Medio,Corrientes,Yapeyu,Ypy
+788,Helipuerto,Almafuerte / Transener S.A.,Altos,Cordoba,Almafuerte,Hat
+789,Helipuerto,Juan Y Luci,Altos,Cordoba,Alpa Corral,Hac
+790,Helipuerto,Oreste Berta,Altos,Cordoba,Alta Gracia,Hob
+791,Helipuerto,Polisur S.A.,Bajo,Buenos Aires,Bahia Blanca,Hbp
+792,Helipuerto,Planta Cruz Del Sur,Medio,Tierra Del Fuego,Bahia San Sebastian,Hen
+793,Helipuerto,Transener S.A.,Altos,Mendoza,Barreales,Hcr
+794,Helipuerto,Cabaña San Isidro Labrador,Bajo,Buenos Aires,Belen De Escobar,Hci
+795,Helipuerto,Legat S.A.,Bajo,Buenos Aires,Belen De Escobar,Hbe
+796,Helipuerto,Buenos Aires City Oscar And Juan Galvez Autodrome,Bajo,Buenos Aires (Autonomous City),Buenos Aires,Hau
+797,Helipuerto,B. Churruca,Bajo,Buenos Aires (Autonomous City),Buenos Aires,Hbc
+799,Helipuerto,Darsena Sur,Bajo,Buenos Aires (Autonomous City),Buenos Aires,Hda
+800,Helipuerto,Fuerza Aerea(Edificio Condor),Bajo,Buenos Aires (Autonomous City),Buenos Aires,Hfa
+801,Helipuerto,Professor Juan P Garrahan National Pediatric Hospital,Bajo,Buenos Aires (Autonomous City),Buenos Aires,Hnp
+802,Helipuerto,Madero,Bajo,Buenos Aires (Autonomous City),Buenos Aires,Hbm
+803,Helipuerto,Argentine Naval Prefecture Principal Official Ballestra,Bajo,Buenos Aires (Autonomous City),Buenos Aires,Hpn
+805,Helipuerto,Sanatorio Guemes,Medio,Buenos Aires (Autonomous City),Buenos Aires,Hsg
+806,Helipuerto,Swiss Medical,Medio,Buenos Aires (Autonomous City),Buenos Aires,Hmd
+807,Helipuerto,Cabo Virgenes,Medio,Santa Cruz,Cabo Virgenes,Hcv
+808,Helipuerto,Transener S.A.,Bajo,Buenos Aires,Campana,Hct
+809,Helipuerto,La Madrugada,Bajo,Buenos Aires,Capilla Del Señor,Hlm
+810,Helipuerto,Las Araucarias,Bajo,Buenos Aires,Capilla Del Señor,Hcs
+811,Helipuerto,Los Fresnos,Bajo,Buenos Aires,Capilla Del Señor,Hlf
+812,Helipuerto,San Joaquin,Medio,Buenos Aires,Carmen De Areco,Hrc
+813,Helipuerto,Estancia Santa Isabel,Altos,Neuquen,Catan Lil,Hcl
+814,Helipuerto,El Capricho,Bajo,Buenos Aires,Chenaut,Hco
+815,Helipuerto,Transener S.A.,Medio,Rio Negro,Choele Choel,Hcc
+816,Helipuerto,La Milagrosa,Bajo,Entre Rios,Concepcion Del Uruguay,Hmi
+817,Helipuerto,Talitas,Bajo,Entre Rios,Concepcion Del Uruguay,Hta
+818,Helipuerto,Campo De Vuelo,Altos,Cordoba,Cordoba,Hmo
+819,Helipuerto,Casa De Gobierno,Altos,Cordoba,Cordoba,Hgc
+820,Helipuerto,Ciudad Universitaria,Altos,Cordoba,Cordoba,Hcu
+821,Helipuerto,Policia Provincia De Cordoba,Altos,Cordoba,Cordoba,Hpc
+822,Helipuerto,Raies,Altos,Cordoba,Cordoba,Hra
+823,Helipuerto,La Caldera,Bajo,Buenos Aires,Costa Azul,Hca
+824,Helipuerto,Helicenter,Bajo,Buenos Aires,Don Torcuato,Hli
+825,Helipuerto,Tecnocopter S.A.,Bajo,Buenos Aires,Don Torcuato,Hht
+826,Helipuerto,Timen S.A.,Bajo,Buenos Aires,Don Torcuato,Hdt
+827,Helipuerto,Transener S.A.,Altos,Tucuman,El Bracho,Hbo
+828,Helipuerto,Central Nuclear,Altos,Cordoba,Embalse Rio Tercero,Hcn
+829,Helipuerto,Transener S.A.,Bajo,Buenos Aires,Ezeiza,Hcg
+830,Helipuerto,Miraflores Country Club,Bajo,Buenos Aires,Garin,Hmc
+831,Helipuerto,Unidad Penitenciaria N° 30,Medio,Buenos Aires,General Alvear,Hup
+832,Helipuerto,San Isidro Labrador,Medio,Buenos Aires,General Villegas,Hil
+833,Helipuerto,Manuel Afonso,Bajo,Buenos Aires,Hudson,Hma
+835,Helipuerto,Estancia Palitue,Altos,Neuquen,Junin De Los Andes,Hjn
+836,Helipuerto,La Carolina,Altos,Cordoba,La Carolina,Hlc
+837,Helipuerto,Sub-Inspector Official Gustavo Soarez De Souza,Medio,Buenos Aires,La Matanza,Hmf
+838,Helipuerto,Terminal Y.P.F.,Bajo,Buenos Aires,La Matanza,Hmy
+839,Helipuerto,D.P.A.O.,Bajo,Buenos Aires,La Plata,Hlp
+840,Helipuerto,Ecodyma S.C.A.,Bajo,Buenos Aires,La Plata,Hec
+841,Helipuerto,Policlinico San Martin,Bajo,Buenos Aires,La Plata,Hpm
+842,Helipuerto,Lago Escondido,Altos,Rio Negro,Lago Escondido,Hle
+843,Helipuerto,Estancia Haychol,Altos,Neuquen,Las Lajas,Hhl
+844,Helipuerto,Match Point,Bajo,Buenos Aires,Lujan,Hmp
+845,Helipuerto,Sol De Agosto,Bajo,Buenos Aires,Lujan,Hag
+846,Helipuerto,Transener S.A.,Altos,San Luis,Lujan,Hlu
+847,Helipuerto,Saturnino Unzue,Medio,Buenos Aires,Mar Del Plata,Huu
+848,Helipuerto,Abel Monteverde,Altos,Cordoba,Monte Buey,Hmb
+849,Helipuerto,Montecristo / Transener S.A.,Altos,Cordoba,Monte Cristo,Hmt
+850,Helipuerto,Heliwest,Bajo,Buenos Aires,Moreno,Hhw
+851,Helipuerto,Morrison,Medio,Cordoba,Morrison,Hrr
+852,Helipuerto,La Superba,Bajo,Buenos Aires,Open Door,Hls
+853,Helipuerto,Hospital Materno Infantil San Roque,Medio,Entre Rios,Parana,Hpe
+854,Helipuerto,Transener S.A.,Altos,Neuquen,Piedra Del Aguila,Hpg
+855,Helipuerto,Ayres De Pilar,Bajo,Buenos Aires,Pilar,Hap
+856,Helipuerto,Memorial,Bajo,Buenos Aires,Pilar,Hme
+857,Helipuerto,Transener S.A.,Medio,La Pampa,Puelches,Hpu
+858,Helipuerto,Recreo / Transener S.A.,Medio,Catamarca,Recreo,Hre
+859,Helipuerto,Austral,Bajo,Tierra Del Fuego,Rio Cullen,Ull
+860,Helipuerto,Estancia Rio Ewan,Bajo,Tierra Del Fuego,Rio Grande,Hrw
+861,Helipuerto,Transener S.A.,Medio,Santa Fe,Romang,Hrt
+862,Helipuerto,Centro Civico Grand Bourg,Altos,Salta,Salta,Hgb
+863,Helipuerto,Finca Las Costas,Altos,Salta,Salta,Hfc
+864,Helipuerto,Hospital De Milagro,Altos,Salta,Salta,Hhm
+865,Helipuerto,Hospital Municipal,Medio,Buenos Aires,San Andres De Giles,Hsh
+866,Helipuerto,Arelauquen,Altos,Rio Negro,San Carlos De Bariloche,Hba
+867,Helipuerto,Complejo Llao Llao,Altos,Rio Negro,San Carlos De Bariloche,Hll
+868,Helipuerto,Sarthou S.A.,Bajo,Buenos Aires,San Fernando,Hfs
+871,Helipuerto,Estancia La Candelaria,Altos,Neuquen,San Martin De Los Andes,Hcd
+872,Helipuerto,Rancho De Montaña,Altos,Neuquen,San Martin De Los Andes,Hrm
+874,Helipuerto,Heliplataforma Carina/Total Fina,Bajo,Tierra Del Fuego,Santa Cruz,Hri
+875,Helipuerto,Heliplataforma/Rio Cullen-Hidra Norte,Bajo,Tierra Del Fuego,Santa Cruz,Hno
+876,Helipuerto,Heliplataforma Am I,Bajo,Santa Cruz,Santa Cruz,Hab
+877,Helipuerto,Heliplataforma/Am-2,Medio,Santa Cruz,Santa Cruz,Had
+878,Helipuerto,Heliplataforma/Am3,Medio,Santa Cruz,Santa Cruz,Ham
+879,Helipuerto,Heliplataforma/Am5,Bajo,Santa Cruz,Santa Cruz,Hmq
+880,Helipuerto,Isla Santa Monica,Bajo,Buenos Aires,Tigre,Hsm
+881,Helipuerto,Estancia La Chacota,Medio,Buenos Aires,Trenque Lauquen,Htl
+882,Helipuerto,Norberto Cordeiro,Altos,Cordoba,Villa Carlos Paz,Hai
+883,Helipuerto,Citefa,Bajo,Buenos Aires,Villa Martelli,Hvm
+884,Helipuerto,Las Chacritas,Bajo,Buenos Aires,Villa Rosa,Hlt
+890,Helipuerto,D.P. El Vapor,Bajo,Buenos Aires,Almirante Brown,Hev
+891,Helipuerto,Heliplataforma Barcaza Yagana,Bajo,Santa Cruz,Barcaza Yagana,Hby
+892,Helipuerto,Madero Harbour,Medio,Buenos Aires (Autonomous City),Buenos Aires,Hmg
+894,Helipuerto,Heliplataforma Swiber,Bajo,Tierra Del Fuego,Campo Vega Pleyade,Hsw
+895,Helipuerto,Cañuelas Gas Sa Heliport,Bajo,Buenos Aires,Cañuelas ,Hga
+897,Helipuerto,Berrini,Altos,Cordoba,Cordoba,Hbr
+898,Helipuerto,Centro Civico Bicentenario,Altos,Cordoba,Cordoba,Hbi
+899,Helipuerto,Colonia La Capilla,Bajo,Buenos Aires,Florencio Varela,Hfv
+900,Helipuerto,Heliplataforma Movil Ocean,Medio,Santa Cruz,Golfo San Jorge,Hos
+901,Helipuerto,Lar De Paz S.A.,Bajo,Buenos Aires,Gonzalez Catan,Hgm
+902,Helipuerto,Hospital R. Carrillo,Bajo,Santa Fe,Granadero Baigorria,Hdr
+903,Helipuerto,Ituzaingo / Transener S.A.,Medio,Corrientes,Ituzaingo,Hit
+904,Helipuerto,Dr. Mariano Moreno,Bajo,Buenos Aires,Jose C. Paz,Hmm
+905,Helipuerto,Casa De Lata,Altos,Neuquen,Junin De Los Andes,Hdl
+906,Helipuerto,Pernigotti,Medio,Santiago Del Estero,La Banda,Hbd
+907,Helipuerto,Campanopolis,Bajo,Buenos Aires,La Matanza,His
+908,Helipuerto,Superficie,Bajo,Buenos Aires,La Plata,Hbt
+909,Helipuerto,C.A.P.E. Provincial Police,Altos,La Rioja,La Rioja,Hpl
+910,Helipuerto,S.A.N.A.,Altos,Misiones,Leandro N. Alem,Hla
+911,Helipuerto,La Reserva,Bajo,Buenos Aires,Los Cardales,Hlr
+913,Helipuerto,Homaq,Bajo,Buenos Aires,Lujan,Hlh
+915,Helipuerto,Policia De La Provincia De Mendoza,Altos,Mendoza,Mendoza,Hpd
+917,Helipuerto,San Diego Country Club,Bajo,Buenos Aires,Moreno,Hsd
+918,Helipuerto,Pachon Minera,Altos,San Juan,"Pachon, Calingasta",Hps
+919,Helipuerto,Piero Vara,Bajo,Buenos Aires,Pilar,Hpi
+923,Helipuerto,Heliplataforma Oceanic,Bajo,Tierra Del Fuego,Rio Grande,Hoc
+924,Helipuerto,San Fernando / Parana Mini,Bajo,Buenos Aires,Rio Parana Mini,Hmh
+925,Helipuerto,Unidad Regional Ii De Polcia,Bajo,Santa Fe,Rosario,2831
+928,Helipuerto,Cooperativa De Trabajos Portuarios Limitada,Bajo,Santa Fe,San Martin,Hpt
+929,Helipuerto,Miguel Colombise,Bajo,Santa Fe,San Nicolas,Hsn
+930,Helipuerto,Metalurgico / Miguel Colombise,Bajo,Buenos Aires,San Nicolas De Los Arroyos,Hsn
+931,Helipuerto,Rio Cullen Ii,Bajo,Tierra Del Fuego,Santa Cruz,Hce
+933,Helipuerto,Edificio Tribunales,Medio,Santiago Del Estero,Santiago Del Estero,Het
+935,Helipuerto,Estancia La Pascuala,Medio,Buenos Aires,Tandil,Htd
+936,Helipuerto,Villa La Ñata,Bajo,Buenos Aires,Tigre,Hva
+937,Helipuerto,Nordelta,Bajo,Buenos Aires,Tigre,Hnb
+939,Helipuerto,Dayry Partners Americas Manufacturing Argentina Sa,Medio,Cordoba,Villa Nueva,Hne
+941,Helipuerto,Roca,Altos,Cordoba,Yacanto De Calamuchita,Hyc
+942,Helipuerto,Austral S.A.,Medio,Tierra Del Fuego,Yacimiento Cañadon Alfa,Hcp
